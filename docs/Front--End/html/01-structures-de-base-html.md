@@ -14,18 +14,21 @@ Les balises ouvrantes sont utilisées pour définir le début d'un élément HTM
 
 
 === "Balises ouvrante et fermante"
+
   ```html
   - Balise ouvrante : `<div>`
   - Balise fermante : `</div>`
   - Utilisées pour délimiter une division dans le HTML.
   ```
 === "Code source"
+
   ```html
   <div>
   <p>Contenu dans une division.</p>
   </div>
   ```
 === "Rendu interprété par le navigateur"
+
 <div>
 <p>Contenu dans une division.</p>
 </div>
