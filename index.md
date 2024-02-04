@@ -1,5 +1,5 @@
 ---
-title: Material for MkDocs
+title: Home
 ---
 
 Welcome to Material for MkDocs.
