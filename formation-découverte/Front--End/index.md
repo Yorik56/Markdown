@@ -2,24 +2,28 @@
 title: Développement Web Front-End
 ---
 
-# Introduction au Développement Web Front-End
+Cette section a pour objectif de vous initier aux technologies web front-end, en expliquant ce que signifie "Front-end" et en présentant les principales technologies : HTML, CSS et JavaScript.
 
-Bienvenue dans le module d'introduction au développement web front-end de notre formation. Dans cette section, nous allons explorer les fondamentaux du développement web, en commençant par les bases du HTML (HyperText Markup Language).
+## Qu'est-ce que le Front-End ?
 
-## Module 1 : Structure de base d'un document HTML
+Le Front-End, également appelé "frontend" ou "interface utilisateur", représente la partie visible d'une application web avec laquelle les utilisateurs interagissent directement. Il s'agit de l'aspect visuel et interactif d'un site web ou d'une application. Le Front-End est essentiel pour offrir une expérience utilisateur conviviale et attrayante.
 
-Dans ce premier module, nous allons découvrir la structure de base d'un document HTML. Vous apprendrez ce que sont les balises ouvrantes, fermantes et auto-fermantes, ainsi que le modèle de boîte (box model) qui définit le rendu visuel des éléments HTML.
+## Technologies Front-End Principales
 
-## Module 2 : Les Éléments HTML Essentiels
+Dans cette section, nous explorerons les trois principales technologies du Front-End : HTML, CSS et JavaScript, en expliquant brièvement leur rôle et leur importance dans le développement web.
 
-Le module 2 se concentrera sur les éléments HTML essentiels que vous utiliserez fréquemment dans le développement web. Vous apprendrez à créer des titres, des paragraphes, des liens, des images et des listes pour structurer et présenter votre contenu web.
+### HTML (HyperText Markup Language)
 
-## Module 3 : Les Formulaires en HTML
+HTML est le langage de balisage standard utilisé pour créer la structure et le contenu d'une page web. Il permet de définir la hiérarchie des éléments, tels que les titres, les paragraphes, les liens, les images et bien plus encore. HTML est la base de toute page web, et chaque élément est représenté par des balises pour décrire son contenu et sa mise en page.
 
-Les formulaires sont un élément essentiel des sites web interactifs. Dans ce module, vous découvrirez comment créer des formulaires en HTML pour permettre aux utilisateurs de saisir des informations. Vous apprendrez à gérer différents types de champs de saisie, des boutons aux zones de texte.
+### CSS (Cascading Style Sheets)
 
-## Module 4 : Utilisation des Balises Sémantiques
+CSS est un langage de feuilles de style qui permet de définir la présentation et la mise en page des éléments HTML. Grâce à CSS, vous pouvez contrôler les couleurs, les polices, les marges, les bordures et d'autres aspects visuels d'une page web. CSS offre la possibilité de créer des designs élégants et responsifs pour s'adapter à différents appareils et tailles d'écran.
 
-Les balises sémantiques sont importantes pour améliorer la structure et la lisibilité de votre code HTML. Dans ce dernier module, nous explorerons les balises sémantiques telles que les en-têtes, la navigation, les sections, les articles et les pieds de page pour créer des pages web plus accessibles et compréhensibles.
+### JavaScript
 
-Prêt à plonger dans le monde passionnant du développement web front-end ? Commençons par le Module 1 : Structure de base d'un document HTML.
+JavaScript est un langage de programmation utilisé pour rendre une page web interactive et dynamique. Il permet d'ajouter des fonctionnalités telles que des animations, des formulaires interactifs, des validations de données en temps réel et bien plus encore. JavaScript est essentiel pour créer des applications web interactives et réactives.
+
+En parcourant cette section, vous acquerrez une compréhension de base de ces technologies fondamentales du Front-End, qui sont indispensables pour quiconque souhaite se lancer dans le développement web.
+
+Continuez à explorer les sous-sections pour en apprendre davantage sur chaque technologie et comment elles interagissent pour créer des sites web attrayants et fonctionnels.
