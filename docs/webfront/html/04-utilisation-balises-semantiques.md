@@ -1,3 +1,7 @@
+---
+title: Utilisation des Balises Sémantiques
+---
+
 ### Module 4 : Utilisation des Balises Sémantiques
 
 #### En-têtes (header)

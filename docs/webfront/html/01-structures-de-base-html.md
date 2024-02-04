@@ -1,3 +1,7 @@
+---
+title: Structure de base d'un document HTML
+---
+
 Voici les 4 documents pour chaque module de la partie "Introduction au Développement Web Front-End" :
 
 ### Module 1 : Structure de base d'un document HTML

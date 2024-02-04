@@ -1,3 +1,7 @@
+---
+title: Les Formulaires en HTML
+---
+
 ### Module 3 : Les Formulaires en HTML
 
 #### Saisie de texte (input type="text")

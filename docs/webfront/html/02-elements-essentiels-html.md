@@ -1,3 +1,8 @@
+---
+title: Les Éléments HTML Essentiels
+---
+
+
 ### Module 2 : Les Éléments HTML Essentiels
 
 #### Les titres (h1, h2, h3, etc.)
