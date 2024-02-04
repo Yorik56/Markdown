@@ -1,5 +1,5 @@
 ---
-title: Introduction aux balises HTML
+title: Introduction aux balises
 ---
 
 ## Les balises ouvrantes et fermantes
