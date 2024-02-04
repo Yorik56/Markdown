@@ -42,8 +42,21 @@ Les balises auto-fermantes sont utilisées lorsque l'élément n'a pas de conten
 
 ### Exemples pratiques
 
-- Balise auto-fermante : `<img src="image.jpg" alt="Description" />`
-- Utilisée pour insérer une image dans la page sans nécessiter de balise fermante distincte.
+=== "Balise auto-fermante"
+
+    ```html
+    <img src="image.jpg" alt="Description" />
+    ```
+
+=== "Code source"
+
+    ``` html
+    <img src="image.jpg" alt="Description" />
+    ```
+
+=== "Rendu interprété par le navigateur"
+
+    <img src="image.jpg" alt="Description" />
 
 ## Présentation des balises HTML
 
