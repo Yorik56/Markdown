@@ -2,9 +2,7 @@
 title: Les balises essentielles
 ---
 
-## Les balises essentielles
-
-### Balises de titre (Hn)
+## Balises de titre (Hn)
 
 Les balises H1 à H6 sont utilisées pour définir les niveaux de titre dans une page HTML.
 
@@ -14,6 +12,9 @@ Les balises H1 à H6 sont utilisées pour définir les niveaux de titre dans une
     <h1>Titre de niveau 1</h1>
     <h2>Titre de niveau 2</h2>
     <h3>Titre de niveau 3</h3>
+    <h4>Titre de niveau 4</h4>
+    <h5>Titre de niveau 5</h5>
+    <h6>Titre de niveau 6</h6>
     ```
 
 ## Paragraphe
