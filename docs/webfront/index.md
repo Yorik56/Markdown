@@ -1,3 +1,7 @@
+---
+title: Développement Web Front-End
+---
+
 # Introduction au Développement Web Front-End
 
 Bienvenue dans le module d'introduction au développement web front-end de notre formation. Dans cette section, nous allons explorer les fondamentaux du développement web, en commençant par les bases du HTML (HyperText Markup Language).
