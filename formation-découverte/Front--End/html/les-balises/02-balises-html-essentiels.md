@@ -4,7 +4,7 @@ title: Les balises essentielles
 
 ## Balises de titre (Hn)
 
-Les balises H1 à H6 sont utilisées pour définir les niveaux de titre dans une page HTML.
+Les balises `<h1>` à `<h6>` sont utilisées pour définir les niveaux de titre dans une page HTML.
 
 !!! exemple "Titres"
 
