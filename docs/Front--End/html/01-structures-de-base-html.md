@@ -4,8 +4,6 @@ title: Introduction aux balises HTML
 
 ## Les balises ouvrantes et fermantes
 
-### Présentation des balises ouvrantes et fermantes
-
 Les balises ouvrantes sont utilisées pour définir le début d'un élément HTML, 
 
 tandis que les balises fermantes marquent la fin de cet élément. 
@@ -37,8 +35,6 @@ Elles sont encadrées par des chevrons ("<" et ">") et contiennent le nom de l'�
         </div>
 
 ## Les balises auto-fermantes
-
-### Présentation des balises auto-fermantes
 
 Les balises auto-fermantes sont utilisées lorsque l'élément n'a pas de contenu. Elles se ferment automatiquement avec un "/>" à la fin de la balise ouvrante.
 
