@@ -1,5 +1,5 @@
 ---
-title: Les balises HTML essentielles
+title: Les balises essentielles
 ---
 
 ## Paragraphe

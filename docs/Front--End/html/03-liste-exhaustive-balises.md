@@ -1,5 +1,5 @@
 ---
-title: Liste exhaustive des balises HTML
+title: Liste exhaustive des balises
 ---
 
 ## Balises de premier niveau
