@@ -14,7 +14,7 @@ Les balises ouvrantes sont utilisées pour définir le début d'un élément HTM
 
 === "Balises ouvrante et fermante"
 
-  ```html
+  ``` html
   - Balise ouvrante : `<div>`
   - Balise fermante : `</div>`
   - Utilisées pour délimiter une division dans le HTML.
@@ -22,7 +22,7 @@ Les balises ouvrantes sont utilisées pour définir le début d'un élément HTM
 
 === "Code source"
 
-  ```html
+  ``` html
   <div>
   <p>Contenu dans une division.</p>
   </div>
@@ -33,6 +33,29 @@ Les balises ouvrantes sont utilisées pour définir le début d'un élément HTM
 <div>
 <p>Contenu dans une division.</p>
 </div>
+
+
+=== "C"
+
+    ``` c
+    #include <stdio.h>
+
+    int main(void) {
+      printf("Hello world!\n");
+      return 0;
+    }
+    ```
+
+=== "C++"
+
+    ``` c++
+    #include <iostream>
+
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```
 
 ## Les balises auto-fermantes
 
