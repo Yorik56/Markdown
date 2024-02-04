@@ -12,7 +12,6 @@ Les balises ouvrantes sont utilisées pour définir le début d'un élément HTM
 
 ### Exemples pratiques
 
-
 === "Balises ouvrante et fermante"
 
   ```html
@@ -20,6 +19,7 @@ Les balises ouvrantes sont utilisées pour définir le début d'un élément HTM
   - Balise fermante : `</div>`
   - Utilisées pour délimiter une division dans le HTML.
   ```
+
 === "Code source"
 
   ```html
@@ -27,6 +27,7 @@ Les balises ouvrantes sont utilisées pour définir le début d'un élément HTM
   <p>Contenu dans une division.</p>
   </div>
   ```
+
 === "Rendu interprété par le navigateur"
 
 <div>
