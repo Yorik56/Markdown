@@ -2,15 +2,13 @@
 title: Liste exhaustive des balises HTML
 ---
 
-## Liste exhaustive des balises HTML
-
-### Balises de premier niveau
+## Balises de premier niveau
 
 - `<html>` : Balise principale de toutes les pages web.
 - `<head>` : En-tête de la page.
 - `<body>` : Corps de la page.
 
-### Balises d'en-tête
+## Balises d'en-tête
 
 - `<link />` : Liaison avec une feuille de style.
 - `<meta />` : Métadonnées de la page web.
@@ -18,7 +16,7 @@ title: Liste exhaustive des balises HTML
 - `<style>` : Code CSS.
 - `<title>` : Titre de la page.
 
-### Balises de structuration du texte
+## Balises de structuration du texte
 
 - `<abbr>` : Abréviation.
 - `<blockquote>` : Citation longue.
@@ -49,7 +47,7 @@ title: Liste exhaustive des balises HTML
 - `<time>` : Date ou heure.
 - `<pre>` : Texte à l'intérieur de la balise sera sous forme de code.
 
-### Balises de listes
+## Balises de listes
 
 - `<ul>` : Liste à puces, non numérotée.
 - `<ol>` : Liste numérotée.
@@ -57,7 +55,7 @@ title: Liste exhaustive des balises HTML
 - `<dl>` : Liste de définitions.
 - `<dt>` : Définition du terme.
 
-### Balises de tableau
+## Balises de tableau
 
 - `<table>` : Tableau.
 - `<caption>` : Titre du tableau.
@@ -68,7 +66,7 @@ title: Liste exhaustive des balises HTML
 - `<tbody>` : Section du corps du tableau.
 - `<tfoot>` : Section du pied du tableau.
 
-### Balises de formulaire
+## Balises de formulaire
 
 - `<form>` : Formulaire.
 - `<fieldset>` : Regroupement d'éléments d'un formulaire.
@@ -80,7 +78,7 @@ title: Liste exhaustive des balises HTML
 - `<option>` : Élément d'une liste déroulante.
 - `<optgroup>` : Groupe d'éléments d'une liste déroulante.
 
-### Balises sectionnantes
+## Balises sectionnantes
 
 - `<header>` : En-tête.
 - `<nav>` : Liens principaux de navigation.
@@ -91,7 +89,7 @@ title: Liste exhaustive des balises HTML
   - `<article>` : Article (contenu autonome).
   - `<aside>` : Informations complémentaires.
 
-### Balises génériques
+## Balises génériques
 
 - `<span>` : Balise générique de type inline.
 - `<div>` : Balise générique de type block.
