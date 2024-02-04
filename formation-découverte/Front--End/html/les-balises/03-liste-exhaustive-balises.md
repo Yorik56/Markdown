@@ -8,6 +8,29 @@ title: Liste exhaustive des balises
 - `<head>` : En-tête de la page.
 - `<body>` : Corps de la page.
 
+!!! exemple "Exemple d'utilisation"
+
+    === "Balises"
+    
+        - `<html>` : 
+        ```html
+        <html>
+            <!-- Contenu de la page -->
+        </html>
+        ```
+        - `<head>` : 
+        ```html
+        <head>
+            <!-- Éléments d'en-tête -->
+        </head>
+        ```
+        - `<body>` : 
+        ```html
+        <body>
+            <!-- Contenu principal de la page -->
+        </body>
+        ```
+
 ## Balises d'en-tête
 
 - `<link />` : Liaison avec une feuille de style.
