@@ -8,7 +8,7 @@ title: Présentation des balises HTML essentielles
 
 La balise `<p>` est utilisée pour définir un paragraphe de texte dans le HTML.
 
-!!! exemple ""
+!!! exemple " "
 
     ```html
     <p>Ceci est un exemple de paragraphe.</p>
