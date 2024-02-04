@@ -11,10 +11,8 @@ Les balises de premier niveau sont essentielles pour la structuration de votre d
 !!! exemple "balise `<html>`"
 
     ```html
-
-    ```html
     <html>
-    <!-- Contenu de la page -->
+        <!-- Contenu de la page -->
     </html>
     ```
 
@@ -24,7 +22,7 @@ Les balises de premier niveau sont essentielles pour la structuration de votre d
 
     ```html
     <head>
-    <!-- Éléments d'en-tête -->
+        <!-- Éléments d'en-tête -->
     </head>
     ```
 
