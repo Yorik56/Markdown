@@ -2,6 +2,20 @@
 title: Les balises essentielles
 ---
 
+## Les balises essentielles
+
+### Balises de titre (Hn)
+
+Les balises H1 à H6 sont utilisées pour définir les niveaux de titre dans une page HTML.
+
+!!! exemple "Titres"
+
+    ```html
+    <h1>Titre de niveau 1</h1>
+    <h2>Titre de niveau 2</h2>
+    <h3>Titre de niveau 3</h3>
+    ```
+
 ## Paragraphe
 
 La balise `<p>` est utilisée pour définir un paragraphe de texte dans le HTML.
