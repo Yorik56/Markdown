@@ -4,41 +4,41 @@ title: Présentation des balises HTML essentielles
 
 ## Présentation des balises HTML essentielles
 
-### Paragraphe (`<p>`)
+### Paragraphe
 
 La balise `<p>` est utilisée pour définir un paragraphe de texte dans le HTML.
 
-!!! exemple " "
+!!! exemple "Paragraphe"
 
     ```html
     <p>Ceci est un exemple de paragraphe.</p>
     ```
 
-### Liens hypertextes (`<a>`)
+### Liens hypertextes
 
 La balise `<a>` est utilisée pour créer des liens hypertextes dans le HTML.
 
-!!! exemple
+!!! exemple "Liens hypertextes"
 
     ```html
     <a href="https://exemple.com">Lien vers un site</a>
     ```
 
-### Image (`<img>`)
+### Image
 
 La balise `<img>` est utilisée pour insérer des images dans une page web.
 
-!!! exemple
+!!! exemple "Image"
 
     ```html
     <img src="image.jpg" alt="Description de l'image" />
     ```
 
-### Liste non ordonnée (`<ul>`)
+### Liste non ordonnée
 
 La balise `<ul>` est utilisée pour créer une liste non ordonnée dans le HTML.
 
-!!! exemple
+!!! exemple "Liste non ordonnée"
 
     ```html
     <ul>
@@ -47,11 +47,11 @@ La balise `<ul>` est utilisée pour créer une liste non ordonnée dans le HTML.
     </ul>
     ```
 
-### Formulaire interactif (`<form>`)
+### Formulaire interactif
 
 La balise `<form>` est utilisée pour créer un formulaire interactif dans une page web.
 
-!!! exemple
+!!! exemple "Formulaire interactif"
 
     ```html
     <form action="traitement.php" method="post">
@@ -61,11 +61,11 @@ La balise `<form>` est utilisée pour créer un formulaire interactif dans une p
     </form>
     ```
 
-### Division (`<div>`)
+### Division
 
 La balise `<div>` est utilisée pour diviser et structurer le contenu d'une page web.
 
-!!! exemple
+!!! exemple "Division"
 
     ```html
     <div>
