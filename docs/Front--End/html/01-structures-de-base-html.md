@@ -44,18 +44,18 @@ Les balises auto-fermantes sont utilisées lorsque l'élément n'a pas de conten
 
 !!! exemple "Les balises auto-fermantes"
 
-=== "Balise auto-fermante"
-
-    ```html
-    <img src="image.jpg" alt="Description" />
-    ```
-
-=== "Code source"
-
-    ``` html
-    <img src="image.jpg" alt="Description" />
-    ```
-
-=== "Rendu interprété par le navigateur"
-
-    <img src="image.jpg" alt="Description" />
+    === "Balise auto-fermante"
+    
+        ```html
+        <img src="image.jpg" alt="Description" />
+        ```
+    
+    === "Code source"
+    
+        ``` html
+        <img src="image.jpg" alt="Description" />
+        ```
+    
+    === "Rendu interprété par le navigateur"
+    
+        <img src="image.jpg" alt="Description" />
