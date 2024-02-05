@@ -276,7 +276,7 @@ La balise `<mark>` est utilis√©e pour mettre en valeur visuellement un texte, g√
         
         ```html
         <figure>
-            <img src="figure.jpg" alt="Description de la figure" />
+            <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description" style="display:block;margin:auto;width:250px;"/>
             <figcaption>Description de la figure</figcaption>
         </figure>
         ```
