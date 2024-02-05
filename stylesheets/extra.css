@@ -1,14 +1,15 @@
 [data-md-color-scheme="slate"] {
     /* Primary color shades */
-    --md-primary-fg-color: #331D2C;
-    --md-primary-fg-color--light: #3F2E3E;
-    --md-primary-fg-color--dark: #A78295;
-    --md-primary-bg-color: #EFE1D1;
-    --md-primary-bg-color--light: rgb(239, 225, 209);
+    --md-primary-fg-color: #004281; /* Dark Cerulean */
+    --md-primary-fg-color--light: #085895; /* Medium Electric Blue */
+    --md-primary-fg-color--dark: #0077a6; /* CG Blue */
+    --md-primary-bg-color: #006994; /* Sea Blue */
+    --md-primary-bg-color--light: #003754; /* Prussian Blue */
+    --md-text-link-color: #00223d; /* Maastricht Blue */
 
     /* Accent color shades */
-    --md-accent-fg-color: #5e9760;
-    --md-accent-fg-color--transparent: rgba(51, 29, 44, 0.1);
-    --md-accent-bg-color: rgba(51, 29, 44, 1);
-    --md-accent-bg-color--light: rgba(51, 29, 44, 0.7);
+    --md-accent-fg-color: #00223d; /* Maastricht Blue */
+    --md-accent-fg-color--transparent: rgba(0, 34, 61, 0.1);
+    --md-accent-bg-color: rgba(0, 34, 61, 1);
+    --md-accent-bg-color--light: rgba(0, 34, 61, 0.7);
 }
