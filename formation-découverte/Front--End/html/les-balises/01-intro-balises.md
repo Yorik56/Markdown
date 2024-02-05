@@ -54,4 +54,4 @@ Les balises auto-fermantes sont utilisées lorsque l'élément n'a pas de conten
     
     === "Rendu interprété par le navigateur"
     
-        <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description" />
+        <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description" style="display:block;margin:auto;width:250px;"/>
