@@ -5,10 +5,10 @@
     --md-primary-fg-color--dark: #22b455;
     --md-primary-bg-color: #80ce87;
     --md-primary-bg-color--light: #92e5a1;
-    --md-text-link-color: #204829;
+    --md-text-link-color: #22b455;
 
     /* Accent color shades */
-    --md-accent-fg-color: #204829;
+    --md-accent-fg-color: #22b455;
     --md-accent-fg-color--transparent: rgba(2, 2, 4, 0.1);
     --md-accent-bg-color: rgba(2, 2, 4, 1);
     --md-accent-bg-color--light: rgba(2, 2, 4, 0.7);
