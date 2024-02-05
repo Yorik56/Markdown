@@ -1,15 +1,14 @@
 [data-md-color-scheme="slate"] {
     /* Primary color shades */
-    --md-primary-fg-color: #020204;
-    --md-primary-fg-color--light: #204829;
-    --md-primary-fg-color--dark: #22b455;
-    --md-primary-bg-color: #22b455;
-    --md-primary-bg-color--light: #92e5a1;
-    --md-text-link-color: #22b455;
+    --md-primary-fg-color: #331D2C;
+    --md-primary-fg-color--light: #3F2E3E;
+    --md-primary-fg-color--dark: #A78295;
+    --md-primary-bg-color: #EFE1D1;
+    --md-primary-bg-color--light: rgb(239, 225, 209);
 
     /* Accent color shades */
-    --md-accent-fg-color: #22b455;
-    --md-accent-fg-color--transparent: rgba(2, 2, 4, 0.1);
-    --md-accent-bg-color: rgba(2, 2, 4, 1);
-    --md-accent-bg-color--light: rgba(2, 2, 4, 0.7);
+    --md-accent-fg-color: rgb(51, 29, 44);
+    --md-accent-fg-color--transparent: rgba(51, 29, 44, 0.1);
+    --md-accent-bg-color: rgba(51, 29, 44, 1);
+    --md-accent-bg-color--light: rgba(51, 29, 44, 0.7);
 }
