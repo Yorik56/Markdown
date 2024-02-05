@@ -40,7 +40,7 @@ Ces balises de premier niveau définissent la structure de base de votre documen
 
 ## Balises d'en-tête
 
-Les balises d'en-tête sont utilisées pour inclure divers éléments essentiels dans une page HTML, elles sont à placer dans la section <head>.
+Les balises d'en-tête sont utilisées pour inclure divers éléments essentiels dans une page HTML, elles sont à placer dans la section `<head>`.
 
 ### Liaison avec une feuille de style
 
