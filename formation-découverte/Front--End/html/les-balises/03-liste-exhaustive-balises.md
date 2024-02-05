@@ -104,9 +104,16 @@ Les balises `<abbr>` sont utilisées pour indiquer une abréviation ou un acrony
 
 !!! exemple "Abréviations"
 
-    ```html
-    <p><abbr title="World Health Organization">WHO</abbr> est une organisation mondiale de la santé.</p>
-    ```
+    === "Code source"
+        
+        ```html
+        <p><abbr title="World Health Organization">WHO</abbr> est une organisation mondiale de la santé.</p>
+        ```
+
+    === "Rendu navigateur"
+        
+        <p><abbr title="World Health Organization">WHO</abbr> est une organisation mondiale de la santé.</p>
+
 
 ### Citations
 
@@ -115,14 +122,26 @@ Les balises `<abbr>` sont utilisées pour indiquer une abréviation ou un acrony
 
 !!! exemple "Citations"
 
-    ```html
-    <blockquote>
-        <p>Ceci est une citation longue.</p>
-    </blockquote>
-    <p>
-        <q>Ceci est une citation courte.</q>
-    </p>
-    ```
+    === "Code source"
+        
+        ```html
+        <blockquote>
+            <p>Ceci est une citation longue.</p>
+        </blockquote>
+        <p>
+            <q>Ceci est une citation courte.</q>
+        </p>
+        ```
+
+    === "Rendu navigateur"
+        
+        <blockquote>
+            <p>Ceci est une citation longue.</p>
+        </blockquote>
+        <p>
+            <q>Ceci est une citation courte.</q>
+        </p>
+
 
 ### Citations du titre
 
@@ -130,9 +149,16 @@ La balise `<cite>` est utilisée pour représenter le titre d'une œuvre ou d'un
 
 !!! exemple "Citations du titre"
 
-    ```html
-    <cite>Le Seigneur des Anneaux</cite> est un roman de J.R.R. Tolkien.
-    ```
+    === "Code source"
+        
+        ```html
+        <cite>Le Seigneur des Anneaux</cite> est un roman de J.R.R. Tolkien.
+        ```
+
+    === "Rendu navigateur"
+        
+        <cite>Le Seigneur des Anneaux</cite> est un roman de J.R.R. Tolkien.
+
 
 ### Indices et Exposants
 
@@ -141,10 +167,17 @@ La balise `<cite>` est utilisée pour représenter le titre d'une œuvre ou d'un
 
 !!! exemple "Indices et Exposants"
 
-    ```html
-    H<sub>2</sub>O est de l'eau.
-    2<sup>3</sup> est égal à 8.
-    ```
+    === "Code source"
+        
+        ```html
+        H<sub>2</sub>O est de l'eau.
+        2<sup>3</sup> est égal à 8.
+        ```
+
+    === "Rendu navigateur"
+        
+        H<sub>2</sub>O est de l'eau.
+        2<sup>3</sup> est égal à 8.
 
 ### Titres de différents niveaux
 
@@ -152,24 +185,42 @@ Les balises `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>` sont utilisées pour 
 
 !!! exemple "Titres de différents niveaux"
 
-    ```html
-    <h1>Titre de niveau 1</h1>
-    <h2>Titre de niveau 2</h2>
-    <h3>Titre de niveau 3</h3>
-    <h4>Titre de niveau 4</h4>
-    <h5>Titre de niveau 5</h5>
-    <h6>Titre de niveau 6</h6>
-    ```
+    === "Code source"
+        
+        ```html
+        <h1>Titre de niveau 1</h1>
+        <h2>Titre de niveau 2</h2>
+        <h3>Titre de niveau 3</h3>
+        <h4>Titre de niveau 4</h4>
+        <h5>Titre de niveau 5</h5>
+        <h6>Titre de niveau 6</h6>
+        ```
+
+    === "Rendu navigateur"
+        
+        <h1>Titre de niveau 1</h1>
+        <h2>Titre de niveau 2</h2>
+        <h3>Titre de niveau 3</h3>
+        <h4>Titre de niveau 4</h4>
+        <h5>Titre de niveau 5</h5>
+        <h6>Titre de niveau 6</h6>
 
 ### Images
 
 La balise `<img>` est utilisée pour afficher une image sur une page web.
 
-!!! exemple "Images"
+!!! exemple "Image"
 
-    ```html
-    <img src="image.jpg" alt="Description de l'image" />
-    ```
+    === "Code source"
+        
+        ```html
+        <img src="image.jpg" alt="Description de l'image" />
+        ```
+
+    === "Rendu navigateur"
+        
+        <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description" style="display:block;margin:auto;width:250px;"/>
+
 
 ### Mise en valeur visuelle
 
@@ -177,9 +228,15 @@ La balise `<mark>` est utilisée pour mettre en valeur visuellement un texte, g�
 
 !!! exemple "Mise en valeur visuelle"
 
-    ```html
-    <p>Le mot <mark>important</mark> est surligné.</p>
-    ```
+    === "Code source"
+        
+        ```html
+        <p>Le mot <mark>important</mark> est surligné.</p>
+        ```
+
+    === "Rendu navigateur"
+        
+        <p>Le mot <mark>important</mark> est surligné.</p>
 
 ### Mise en valeur forte et faible
 
@@ -188,14 +245,25 @@ La balise `<mark>` est utilisée pour mettre en valeur visuellement un texte, g�
 
 !!! exemple "Mise en valeur forte et faible"
 
-    ```html
-    <p>
-        <strong>Ceci est en gras.</strong>
-    </p>
-    <p>
-        <em>Ceci est en italique.</em>
-    </p>
-    ```
+    === "Code source"
+        
+        ```html
+        <p>
+            <strong>Ceci est en gras.</strong>
+        </p>
+        <p>
+            <em>Ceci est en italique.</em>
+        </p>
+        ```
+
+    === "Rendu navigateur"
+        
+        <p>
+            <strong>Ceci est en gras.</strong>
+        </p>
+        <p>
+            <em>Ceci est en italique.</em>
+        </p>
 
 ### Figures et Descriptions
 
@@ -204,12 +272,21 @@ La balise `<mark>` est utilisée pour mettre en valeur visuellement un texte, g�
 
 !!! exemple "Figures et Descriptions"
 
-    ```html
-    <figure>
-        <img src="figure.jpg" alt="Description de la figure" />
-        <figcaption>Description de la figure</figcaption>
-    </figure>
-    ```
+    === "Code source"
+        
+        ```html
+        <figure>
+            <img src="figure.jpg" alt="Description de la figure" />
+            <figcaption>Description de la figure</figcaption>
+        </figure>
+        ```
+
+    === "Rendu navigateur"
+        
+        <figure>
+            <img src="figure.jpg" alt="Description de la figure" />
+            <figcaption>Description de la figure</figcaption>
+        </figure>
 
 ### Médias
 
@@ -219,25 +296,43 @@ La balise `<mark>` est utilisée pour mettre en valeur visuellement un texte, g�
 
 !!! exemple "Médias"
 
-    ```html
-    <audio controls>
-        <source src="audio.mp3" type="audio/mpeg" />
-    </audio>
-    
-    <video controls>
-        <source src="video.mp4" type="video/mp4" />
-    </video>
-    ```
+    === "Code source"
+        
+        ```html
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg" />
+        </audio>
+        
+        <video controls>
+            <source src="video.mp4" type="video/mp4" />
+        </video>
+        ```
+
+    === "Rendu navigateur"
+        
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg" />
+        </audio>
+        
+        <video controls>
+            <source src="video.mp4" type="video/mp4" />
+        </video>
 
 ### Liens hypertexte
 
 La balise `<a>` est utilisée pour créer des liens hypertexte vers d'autres pages web ou ressources.
 
 !!! exemple "Liens hypertexte"
-    
-    ```html
-    <a href="https://www.example.com">Lien hypertexte</a>
-    ```
+
+    === "Code source"
+        
+        ```html
+        <a href="https://www.example.com">Lien hypertexte</a>
+        ```
+
+    === "Rendu navigateur"
+        
+        <a href="https://www.example.com">Lien hypertexte</a>
 
 ### Retour à la ligne, Paragraphe et Ligne de séparation
 
@@ -246,12 +341,20 @@ La balise `<a>` est utilisée pour créer des liens hypertexte vers d'autres pag
 - `<hr />` est utilisé pour insérer une ligne de séparation horizontale.
 
 !!! exemple "Retour à la ligne, Paragraphe et Ligne de séparation"
-    
-    ```html
-    <p>Ceci est un paragraphe.</p>
-    <p>Un autre paragraphe.</p>
-    <hr />
-    ```
+
+    === "Code source"
+        
+        ```html
+        <p>Ceci est un paragraphe.</p>
+        <p>Un autre paragraphe.</p>
+        <hr />
+        ```
+
+    === "Rendu navigateur"
+        
+        <p>Ceci est un paragraphe.</p>
+        <p>Un autre paragraphe.</p>
+        <hr />
 
 ### Adresse de contact
 
@@ -259,13 +362,23 @@ La balise `<address>` est utilisée pour afficher des informations de contact.
 
 !!! exemple "Adresse de contact"
 
-    ```html
-    <address>
-        John Doe<br />
-        john@example.com<br />
-        +1 (123) 456-7890
-    </address>
-    ```
+    === "Code source"
+        
+        ```html
+        <address>
+            John Doe<br />
+            john@example.com<br />
+            +1 (123) 456-7890
+        </address>
+        ```
+
+    === "Rendu navigateur"
+        
+        <address>
+            John Doe<br />
+            john@example.com<br />
+            +1 (123) 456-7890
+        </address>
 
 ### Texte supprimé et inséré
 
@@ -274,14 +387,25 @@ La balise `<address>` est utilisée pour afficher des informations de contact.
 
 !!! exemple "Texte supprimé et inséré"
 
-    ```html
-    <p>
-        <del>Texte supprimé</del>
-    </p>
-    <p>
-        <ins>Texte inséré</ins>
-    </p>
-    ```
+    === "Code source"
+        
+        ```html
+        <p>
+            <del>Texte supprimé</del>
+        </p>
+        <p>
+            <ins>Texte inséré</ins>
+        </p>
+        ```
+
+    === "Rendu navigateur"
+        
+        <p>
+            <del>Texte supprimé</del>
+        </p>
+        <p>
+            <ins>Texte inséré</ins>
+        </p>
 
 ### Définition
 
@@ -289,11 +413,19 @@ La balise `<dfn>` est utilisée pour définir un terme ou une expression.
 
 !!! exemple "Définition"
 
-    ```html
-    <p>
-        <dfn>HTML</dfn> signifie HyperText Markup Language.
-    </p>
-    ```
+    === "Code source"
+        
+        ```html
+        <p>
+            <dfn>HTML</dfn> signifie HyperText Markup Language.
+        </p>
+        ```
+
+    === "Rendu navigateur"
+        
+        <p>
+            <dfn>HTML</dfn> signifie HyperText Markup Language.
+        </p>
 
 ### Code clavier et Barre de progression
 
@@ -302,10 +434,17 @@ La balise `<dfn>` est utilisée pour définir un terme ou une expression.
 
 !!! exemple "Code clavier et Barre de progression"
 
-    ```html
-    <p>Tapez <kbd>Ctrl+C</kbd> pour copier le texte.</p>
-    <progress value="50" max="100">50%</progress>
-    ```
+    === "Code source"
+        
+        ```html
+        <p>Tapez <kbd>Ctrl+C</kbd> pour copier le texte.</p>
+        <progress value="50" max="100">50%</progress>
+        ```
+
+    === "Rendu navigateur"
+        
+        <p>Tapez <kbd>Ctrl+C</kbd> pour copier le texte.</p>
+        <progress value="50" max="100">50%</progress>
 
 ### Date ou heure
 
@@ -313,9 +452,15 @@ La balise `<time>` est utilisée pour afficher une date ou une heure.
 
 !!! exemple "Date ou heure"
 
-    ```html
-    <p>La réunion aura lieu à <time datetime="2024-02-05T09:00">9:00 AM</time>.</p>
-    ```
+    === "Code source"
+        
+        ```html
+        <p>La réunion aura lieu à <time datetime="2024-02-05T09:00">9:00 AM</time>.</p>
+        ```
+
+    === "Rendu navigateur"
+        
+        <p>La réunion aura lieu à <time datetime="2024-02-05T09:00">9:00 AM</time>.</p>
 
 ### Texte sous forme de code
 
@@ -323,13 +468,23 @@ La balise `<pre>` est utilisée pour afficher du texte comme du code, en conserv
 
 !!! exemple "Texte sous forme de code"
 
-    ```html
-    <pre>
-        function helloWorld() {
-            console.log("Hello, world!");
-        }
-    </pre>
-    ```
+    === "Code source"
+        
+        ```html
+        <pre>
+            function helloWorld() {
+                console.log("Hello, world!");
+            }
+        </pre>
+        ```
+
+    === "Rendu navigateur"
+        
+        <pre>
+            function helloWorld() {
+                console.log("Hello, world!");
+            }
+        </pre>
 
 Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici la suite de la structure pour les balises de listes avec des exemples sous forme de code :
 
@@ -341,13 +496,23 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Liste à puces"
 
-    ```html
-    <ul>
-        <li>Élément 1</li>
-        <li>Élément 2</li>
-        <li>Élément 3</li>
-    </ul>
-    ```
+    === "Code source"
+        
+        ```html
+        <ul>
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ul>
+        ```
+
+    === "Rendu navigateur"
+        
+        <ul>
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ul>
 
 ### Liste numérotée
 
@@ -355,13 +520,23 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Liste numérotée"
 
-    ```html
-    <ol>
-        <li>Élément 1</li>
-        <li>Élément 2</li>
-        <li>Élément 3</li>
-    </ol>
-    ```
+    === "Code source"
+        
+        ```html
+        <ol>
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ol>
+        ```
+
+    === "Rendu navigateur"
+        
+        <ol>
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ol>
 
 ### Élément de la liste à puces ou numérotée
 
@@ -369,19 +544,35 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Élément de la liste"
 
-    ```html
-    <ul>
-        <li>Élément 1</li>
-        <li>Élément 2</li>
-        <li>Élément 3</li>
-    </ul>
-    
-    <ol>
-        <li>Élément 1</li>
-        <li>Élément 2</li>
-        <li>Élément 3</li>
-    </ol>
-    ```
+    === "Code source"
+        
+        ```html
+        <ul>
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ul>
+        
+        <ol>
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ol>
+        ```
+
+    === "Rendu navigateur"
+        
+        <ul>
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ul>
+        
+        <ol>
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ol>
 
 ### Liste de définitions
 
@@ -389,16 +580,29 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Liste de définitions"
 
-    ```html
-    <dl>
-        <dt>Terme 1</dt>
-        <dd>Définition du terme 1</dd>
-        <dt>Terme 2</dt>
-        <dd>Définition du terme 2</dd>
-        <dt>Terme 3</dt>
-        <dd>Définition du terme 3</dd>
-    </dl>
-    ```
+    === "Code source"
+        
+        ```html
+        <dl>
+            <dt>Terme 1</dt>
+            <dd>Définition du terme 1</dd>
+            <dt>Terme 2</dt>
+            <dd>Définition du terme 2</dd>
+            <dt>Terme 3</dt>
+            <dd>Définition du terme 3</dd>
+        </dl>
+        ```
+
+    === "Rendu navigateur"
+        
+        <dl>
+            <dt>Terme 1</dt>
+            <dd>Définition du terme 1</dd>
+            <dt>Terme 2</dt>
+            <dd>Définition du terme 2</dd>
+            <dt>Terme 3</dt>
+            <dd>Définition du terme 3</dd>
+        </dl>
 
 ### Définition du terme
 
@@ -406,14 +610,26 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Définition du terme"
 
-    ```html
-    <dl>
-        <dt>HTML</dt>
-        <dd>HyperText Markup Language</dd>
-        <dt>CSS</dt>
-        <dd>Cascading Style Sheets</dd>
-    </dl>
-    ```
+    === "Code source"
+        
+        ```html
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+        ```
+
+    === "Rendu navigateur"
+        
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+
 ## Balises de tableau
 
 ### Tableau
@@ -434,12 +650,21 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Titre du tableau"
 
-    ```html
-    <table>
-        <caption>Tableau des ventes mensuelles</caption>
-        <!-- Contenu du tableau -->
-    </table>
-    ```
+    === "Code source"
+        
+        ```html
+        <table>
+            <caption>Tableau des ventes mensuelles</caption>
+            <!-- Contenu du tableau -->
+        </table>
+        ```
+
+    === "Rendu navigateur"
+        
+        <table>
+            <caption>Tableau des ventes mensuelles</caption>
+            <!-- Contenu du tableau -->
+        </table>
 
 ### Ligne de tableau
 
@@ -461,17 +686,31 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Cellule d'en-tête"
 
-    ```html
-    <table>
-        <thead>
-            <tr>
-                <th>Nom</th>
-                <th>Âge</th>
-            </tr>
-        </thead>
-        <!-- Contenu du tableau -->
-    </table>
-    ```
+    === "Code source"
+        
+        ```html
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Âge</th>
+                </tr>
+            </thead>
+            <!-- Contenu du tableau -->
+        </table>
+        ```
+
+    === "Rendu navigateur"
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Âge</th>
+                </tr>
+            </thead>
+            <!-- Contenu du tableau -->
+        </table>
 
 ### Cellule
 
@@ -479,17 +718,31 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Cellule"
 
-    ```html
-    <table>
-        <tbody>
-            <tr>
-                <td>John</td>
-                <td>30</td>
-            </tr>
-        </tbody>
-        <!-- Contenu du tableau -->
-    </table>
-    ```
+    === "Code source"
+        
+        ```html
+        <table>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>30</td>
+                </tr>
+            </tbody>
+            <!-- Contenu du tableau -->
+        </table>
+        ```
+
+    === "Rendu navigateur"
+        
+        <table>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>30</td>
+                </tr>
+            </tbody>
+            <!-- Contenu du tableau -->
+        </table>
 
 ### Section de l'en-tête du tableau
 
@@ -497,17 +750,31 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Section de l'en-tête du tableau"
 
-    ```html
-    <table>
-        <thead>
-            <tr>
-                <th>Nom</th>
-                <th>Âge</th>
-            </tr>
-        </thead>
-        <!-- Contenu du tableau -->
-    </table>
-    ```
+    === "Code source"
+        
+        ```html
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Âge</th>
+                </tr>
+            </thead>
+            <!-- Contenu du tableau -->
+        </table>
+        ```
+
+    === "Rendu navigateur"
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Âge</th>
+                </tr>
+            </thead>
+            <!-- Contenu du tableau -->
+        </table>
 
 ### Section du corps du tableau
 
@@ -515,21 +782,39 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Section du corps du tableau"
 
-    ```html
-    <table>
-        <tbody>
-            <tr>
-                <td>John</td>
-                <td>30</td>
+    === "Code source"
+        
+        ```html
+        <table>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>30</td>
                 </tr>
                 <tr>
-                <td>Alice</td>
-                <td>25</td>
-            </tr>
-        </tbody>
-        <!-- Contenu du tableau -->
-    </table>
-    ```
+                    <td>Alice</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+            <!-- Contenu du tableau -->
+        </table>
+        ```
+
+    === "Rendu navigateur"
+        
+        <table>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Alice</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+            <!-- Contenu du tableau -->
+        </table>
 
 ### Section du pied du tableau
 
@@ -537,17 +822,32 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Section du pied du tableau"
 
-    ```html
-    <table>
-        <tfoot>
-            <tr>
-                <td>Total</td>
-                <td>55</td>
-            </tr>
-        </tfoot>
-        <!-- Contenu du tableau -->
-    </table>
-    ```
+    === "Code source"
+        
+        ```html
+        <table>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>55</td>
+                </tr>
+            </tfoot>
+            <!-- Contenu du tableau -->
+        </table>
+        ```
+
+    === "Rendu navigateur"
+        
+        <table>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>55</td>
+                </tr>
+            </tfoot>
+            <!-- Contenu du tableau -->
+        </table>
+
 ## Balises de formulaire
 
 ### Formulaire
@@ -582,14 +882,25 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Titre d'un groupe"
 
-    ```html
-    <form action="/traitement" method="post">
-        <fieldset>
-            <legend>Informations personnelles</legend>
-            <!-- Éléments du groupe -->
-        </fieldset>
-    </form>
-    ```
+    === "Code source"
+        
+        ```html
+        <form action="/traitement" method="post">
+            <fieldset>
+                <legend>Informations personnelles</legend>
+                <!-- Éléments du groupe -->
+            </fieldset>
+        </form>
+        ```
+
+    === "Rendu navigateur"
+        
+        <form action="/traitement" method="post">
+            <fieldset>
+                <legend>Informations personnelles</legend>
+                <!-- Éléments du groupe -->
+            </fieldset>
+        </form>
 
 ### Titre d'un élément de formulaire
 
@@ -597,12 +908,21 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Titre d'un élément"
 
-    ```html
-    <form action="/traitement" method="post">
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom" />
-    </form>
-    ```
+    === "Code source"
+        
+        ```html
+        <form action="/traitement" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" />
+        </form>
+        ```
+
+    === "Rendu navigateur"
+        
+        <form action="/traitement" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" />
+        </form>
 
 ### Champ de formulaire
 
@@ -610,12 +930,21 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Champ de formulaire"
 
-    ```html
-    <form action="/traitement" method="post">
-        <input type="text" id="nom" name="nom" />
-        <input type="checkbox" id="souvenir" name="souvenir" />
-    </form>
-    ```
+    === "Code source"
+        
+        ```html
+        <form action="/traitement" method="post">
+            <input type="text" id="nom" name="nom" />
+            <input type="checkbox" id="souvenir" name="souvenir" />
+        </form>
+        ```
+
+    === "Rendu navigateur"
+        
+        <form action="/traitement" method="post">
+            <input type="text" id="nom" name="nom" />
+            <input type="checkbox" id="souvenir" name="souvenir" />
+        </form>
 
 ### Zone de saisie multiligne
 
@@ -623,11 +952,19 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Zone de saisie multiligne"
 
-    ```html
-    <form action="/traitement" method="post">
-        <textarea id="commentaire" name="commentaire" rows="4" cols="50"></textarea>
-    </form>
-    ```
+    === "Code source"
+        
+        ```html
+        <form action="/traitement" method="post">
+            <textarea id="commentaire" name="commentaire" rows="4" cols="50"></textarea>
+        </form>
+        ```
+
+    === "Rendu navigateur"
+        
+        <form action="/traitement" method="post">
+            <textarea id="commentaire" name="commentaire" rows="4" cols="50"></textarea>
+        </form>
 
 ### Liste déroulante
 
@@ -635,15 +972,27 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Liste déroulante"
 
-    ```html
-    <form action="/traitement" method="post">
-        <select id="pays" name="pays">
-            <option value="france">France</option>
-            <option value="espagne">Espagne</option>
-            <option value="italie">Italie</option>
-        </select>
-    </form>
-    ```
+    === "Code source"
+        
+        ```html
+        <form action="/traitement" method="post">
+            <select id="pays" name="pays">
+                <option value="france">France</option>
+                <option value="espagne">Espagne</option>
+                <option value="italie">Italie</option>
+            </select>
+        </form>
+        ```
+
+    === "Rendu navigateur"
+        
+        <form action="/traitement" method="post">
+            <select id="pays" name="pays">
+                <option value="france">France</option>
+                <option value="espagne">Espagne</option>
+                <option value="italie">Italie</option>
+            </select>
+        </form>
 
 ### Élément d'une liste déroulante
 
@@ -651,15 +1000,27 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Élément d'une liste déroulante"
 
-    ```html
+    === "Code source"
+        
+        ```html
         <form action="/traitement" method="post">
-        <select id="pays" name="pays">
-            <option value="france">France</option>
-            <option value="espagne">Espagne</option>
-            <option value="italie">Italie</option>
-        </select>
-    </form>
-    ```
+            <select id="pays" name="pays">
+                <option value="france">France</option>
+                <option value="espagne">Espagne</option>
+                <option value="italie">Italie</option>
+            </select>
+        </form>
+        ```
+
+    === "Rendu navigateur"
+        
+        <form action="/traitement" method="post">
+            <select id="pays" name="pays">
+                <option value="france">France</option>
+                <option value="espagne">Espagne</option>
+                <option value="italie">Italie</option>
+            </select>
+        </form>
 
 ### Groupe d'éléments d'une liste déroulante
 
@@ -667,21 +1028,39 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Groupe d'éléments d'une liste déroulante"
 
-    ```html
-    <form action="/traitement" method="post">
-        <select id="pays" name="pays">
-            <optgroup label="Europe">
-                <option value="france">France</option>
-                <option value="espagne">Espagne</option>
-                <option value="italie">Italie</option>
-            </optgroup>
-            <optgroup label="Asie">
-                <option value="chine">Chine</option>
-                <option value="japon">Japon</option>
-            </optgroup>
-        </select>
-    </form>
-    ```
+    === "Code source"
+        
+        ```html
+        <form action="/traitement" method="post">
+            <select id="pays" name="pays">
+                <optgroup label="Europe">
+                    <option value="france">France</option>
+                    <option value="espagne">Espagne</option>
+                    <option value="italie">Italie</option>
+                </optgroup>
+                <optgroup label="Asie">
+                    <option value="chine">Chine</option>
+                    <option value="japon">Japon</option>
+                </optgroup>
+            </select>
+        </form>
+        ```
+
+    === "Rendu navigateur"
+        
+        <form action="/traitement" method="post">
+            <select id="pays" name="pays">
+                <optgroup label="Europe">
+                    <option value="france">France</option>
+                    <option value="espagne">Espagne</option>
+                    <option value="italie">Italie</option>
+                </optgroup>
+                <optgroup label="Asie">
+                    <option value="chine">Chine</option>
+                    <option value="japon">Japon</option>
+                </optgroup>
+            </select>
+        </form>
 
 ## Balises sectionnantes
 
@@ -691,12 +1070,21 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "En-tête"
 
-    ```html
-    <header>
-        <h1>Titre de l'en-tête</h1>
-        <p>Description de l'en-tête</p>
-    </header>
-    ```
+    === "Code source"
+        
+        ```html
+        <header>
+            <h1>Titre de l'en-tête</h1>
+            <p>Description de l'en-tête</p>
+        </header>
+        ```
+
+    === "Rendu navigateur"
+        
+        <header>
+            <h1>Titre de l'en-tête</h1>
+            <p>Description de l'en-tête</p>
+        </header>
 
 ### Liens principaux de navigation
 
@@ -704,15 +1092,27 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Liens principaux de navigation"
 
-    ```html
-    <nav>
-        <ul>
-            <li><a href="/">Accueil</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-    </nav>
-    ```
+    === "Code source"
+        
+        ```html
+        <nav>
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+        ```
+
+    === "Rendu navigateur"
+        
+        <nav>
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
 
 ### Pied de page
 
@@ -720,24 +1120,41 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Pied de page"
 
-    ```html
-    <footer>
-        <p>Copyright © 2024 MonSiteWeb</p>
-    </footer>
-    ```
+    === "Code source"
+        
+        ```html
+        <footer>
+            <p>Copyright © 2024 MonSiteWeb</p>
+        </footer>
+        ```
+
+    === "Rendu navigateur"
+        
+        <footer>
+            <p>Copyright © 2024 MonSiteWeb</p>
+        </footer>
 
 ### Section de page
 
 - `<section>` : Utilisée pour définir une section générique d'une page, telle qu'un chapitre, un contenu distinct ou une zone thématique.
 
 !!! exemple "Section de page"
-    
-    ```html
-    <section>
-        <h2>Section principale</h2>
-        <p>Contenu de la section principale.</p>
-    </section>
-    ```
+
+    === "Code source"
+        
+        ```html
+        <section>
+            <h2>Section principale</h2>
+            <p>Contenu de la section principale.</p>
+        </section>
+        ```
+
+    === "Rendu navigateur"
+        
+        <section>
+            <h2>Section principale</h2>
+            <p>Contenu de la section principale.</p>
+        </section>
 
 ### Article (contenu autonome)
 
@@ -745,12 +1162,21 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Article"
 
-    ```html
-    <article>
-        <h2>Titre de l'article</h2>
-        <p>Contenu de l'article.</p>
-    </article>
-    ```
+    === "Code source"
+        
+        ```html
+        <article>
+            <h2>Titre de l'article</h2>
+            <p>Contenu de l'article.</p>
+        </article>
+        ```
+
+    === "Rendu navigateur"
+        
+        <article>
+            <h2>Titre de l'article</h2>
+            <p>Contenu de l'article.</p>
+        </article>
 
 ### Informations complémentaires
 
@@ -758,15 +1184,27 @@ Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici
 
 !!! exemple "Informations complémentaires"
 
-    ```html
-    <aside>
-        <h3>À ne pas manquer</h3>
-        <ul>
-            <li>Actualités</li>
-            <li>Événements à venir</li>
-        </ul>
-    </aside>
-    ```
+    === "Code source"
+        
+        ```html
+        <aside>
+            <h3>À ne pas manquer</h3>
+            <ul>
+                <li>Actualités</li>
+                <li>Événements à venir</li>
+            </ul>
+        </aside>
+        ```
+
+    === "Rendu navigateur"
+        
+        <aside>
+            <h3>À ne pas manquer</h3>
+            <ul>
+                <li>Actualités</li>
+                <li>Événements à venir</li>
+            </ul>
+        </aside>
 
 Bien sûr, voici la continuation de la structure pour les balises génériques, en conservant la syntaxe que vous avez fournie :
 
@@ -778,9 +1216,15 @@ Bien sûr, voici la continuation de la structure pour les balises génériques, 
 
 !!! exemple "Balise générique de type inline"
 
-    ```html
-    <p>Ceci est un <span style="color: blue;">texte en bleu</span>.</p>
-    ```
+    === "Code source"
+        
+        ```html
+        <p>Ceci est un <span style="color: blue;">texte en bleu</span>.</p>
+        ```
+
+    === "Rendu navigateur"
+        
+        <p>Ceci est un <span style="color: blue;">texte en bleu</span>.</p>
 
 ### Balise générique de type block
 
@@ -788,11 +1232,20 @@ Bien sûr, voici la continuation de la structure pour les balises génériques, 
 
 !!! exemple "Balise générique de type block"
 
-    ```html
-    <div>
-        <h2>Section importante</h2>
-        <p>Contenu de la section importante.</p>
-    </div>
-    ```
+    === "Code source"
+        
+        ```html
+        <div>
+            <h2>Section importante</h2>
+            <p>Contenu de la section importante.</p>
+        </div>
+        ```
+
+    === "Rendu navigateur"
+        
+        <div>
+            <h2>Section importante</h2>
+            <p>Contenu de la section importante.</p>
+        </div>
 
 Ces balises génériques `<span>` et `<div>` sont polyvalentes et peuvent être utilisées pour envelopper du contenu de manière à appliquer des styles, des scripts ou pour structurer le contenu de la page en utilisant des CSS.
