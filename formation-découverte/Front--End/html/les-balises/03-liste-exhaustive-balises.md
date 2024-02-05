@@ -40,86 +40,723 @@ Ces balises de premier niveau définissent la structure de base de votre documen
 
 ## Balises d'en-tête
 
+Les balises d'en-tête sont utilisées pour inclure divers éléments essentiels dans une page HTML.
+
 - `<link />` : Liaison avec une feuille de style.
 - `<meta />` : Métadonnées de la page web.
 - `<script>` : Code JavaScript.
 - `<style>` : Code CSS.
 - `<title>` : Titre de la page.
 
+!!! exemple "Balises d'en-tête"
+
+    ```html
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <style>
+        /* Votre code CSS ici */
+    </style>
+    <title>Titre de la page</title>
+    ```
+
 ## Balises de structuration du texte
 
-- `<abbr>` : Abréviation.
-- `<blockquote>` : Citation longue.
-- `<q>` : Citation courte.
-- `<cite>` : Citation du titre d'une œuvre ou d'un événement.
-- `<sub>` : Mise en indice.
-- `<sup>` : Mise en exposant.
-- `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>` : Titres de différents niveaux.
-- `<img />` : Image.
-- `<mark>` : Mise en valeur visuelle (surlignage).
-- `<strong>` : Mise en valeur forte (texte en gras).
-- `<em>` : Mise en valeur faible (texte en italique).
-- `<figure>` : Figure (image, code...).
-- `<figcaption>` : Description de la figure.
-- `<audio>` : Son.
-- `<video>` : Vidéo.
-- `<source>` : Format possible pour les balises `<audio>` et `<video>`.
-- `<a>` : Lien hypertexte.
-- `<br />` : Retour à la ligne.
-- `<p>` : Paragraphe.
-- `<hr />` : Ligne de séparation horizontale.
-- `<address>` : Adresse de contact.
-- `<del>` : Texte supprimé.
-- `<ins>` : Texte inséré.
-- `<dfn>` : Définition.
-- `<kbd>` : Indiquer un code que doit taper le visiteur.
-- `<progress>` : Barre de progression.
-- `<time>` : Date ou heure.
-- `<pre>` : Texte à l'intérieur de la balise sera sous forme de code.
+### Abréviations
+
+Les balises `<abbr>` sont utilisées pour indiquer une abréviation ou un acronyme et fournir une explication complète au survol de la souris.
+
+!!! exemple "Abréviations"
+
+    ```html
+    <p><abbr title="World Health Organization">WHO</abbr> est une organisation mondiale de la santé.</p>
+    ```
+
+### Citations
+
+- `<blockquote>` est utilisé pour représenter une citation longue qui est généralement affichée avec une indentation.
+- `<q>` est utilisé pour représenter une citation courte et est souvent entouré de guillemets doubles.
+
+!!! exemple "Citations"
+
+    ```html
+    <blockquote>
+        <p>Ceci est une citation longue.</p>
+    </blockquote>
+    <p>
+        <q>Ceci est une citation courte.</q>
+    </p>
+    ```
+
+### Citations du titre
+
+La balise `<cite>` est utilisée pour représenter le titre d'une œuvre ou d'un événement.
+
+!!! exemple "Citations du titre"
+
+    ```html
+    <cite>Le Seigneur des Anneaux</cite> est un roman de J.R.R. Tolkien.
+    ```
+
+### Indices et Exposants
+
+- `<sub>` est utilisé pour mettre en indice.
+- `<sup>` est utilisé pour mettre en exposant.
+
+!!! exemple "Indices et Exposants"
+
+    ```html
+    H<sub>2</sub>O est de l'eau.
+    2<sup>3</sup> est égal à 8.
+    ```
+
+### Titres de différents niveaux
+
+Les balises `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>` sont utilisées pour définir les niveaux de titre dans une page HTML.
+
+!!! exemple "Titres de différents niveaux"
+
+    ```html
+    <h1>Titre de niveau 1</h1>
+    <h2>Titre de niveau 2</h2>
+    <h3>Titre de niveau 3</h3>
+    <h4>Titre de niveau 4</h4>
+    <h5>Titre de niveau 5</h5>
+    <h6>Titre de niveau 6</h6>
+    ```
+
+### Images
+
+La balise `<img>` est utilisée pour afficher une image sur une page web.
+
+!!! exemple "Images"
+
+    ```html
+    <img src="image.jpg" alt="Description de l'image" />
+    ```
+
+### Mise en valeur visuelle
+
+La balise `<mark>` est utilisée pour mettre en valeur visuellement un texte, généralement en le surlignant.
+
+!!! exemple "Mise en valeur visuelle"
+
+    ```html
+    <p>Le mot <mark>important</mark> est surligné.</p>
+    ```
+
+### Mise en valeur forte et faible
+
+- `<strong>` est utilisé pour mettre en valeur un texte en gras, indiquant une importance.
+- `<em>` est utilisé pour mettre en valeur un texte en italique, indiquant une emphase.
+
+!!! exemple "Mise en valeur forte et faible"
+
+    ```html
+    <p>
+        <strong>Ceci est en gras.</strong>
+    </p>
+    <p>
+        <em>Ceci est en italique.</em>
+    </p>
+    ```
+
+### Figures et Descriptions
+
+- `<figure>` est utilisé pour encapsuler une figure, comme une image ou du code.
+- `<figcaption>` est utilisé pour fournir une description de la figure.
+
+!!! exemple "Figures et Descriptions"
+
+    ```html
+    <figure>
+        <img src="figure.jpg" alt="Description de la figure" />
+        <figcaption>Description de la figure</figcaption>
+    </figure>
+    ```
+
+### Médias
+
+- `<audio>` est utilisé pour intégrer des fichiers audio.
+- `<video>` est utilisé pour intégrer des fichiers vidéo.
+- `<source>` est utilisé pour spécifier les formats possibles pour les balises `<audio>` et `<video>`.
+
+!!! exemple "Médias"
+
+    ```html
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg" />
+    </audio>
+    
+    <video controls>
+        <source src="video.mp4" type="video/mp4" />
+    </video>
+    ```
+
+### Liens hypertexte
+
+La balise `<a>` est utilisée pour créer des liens hypertexte vers d'autres pages web ou ressources.
+
+!!! exemple "Liens hypertexte"
+    
+    ```html
+    <a href="https://www.example.com">Lien hypertexte</a>
+    ```
+
+### Retour à la ligne, Paragraphe et Ligne de séparation
+
+- `<br />` est utilisé pour insérer un retour à la ligne.
+- `<p>` est utilisé pour définir un paragraphe.
+- `<hr />` est utilisé pour insérer une ligne de séparation horizontale.
+
+!!! exemple "Retour à la ligne, Paragraphe et Ligne de séparation"
+    
+    ```html
+    <p>Ceci est un paragraphe.</p>
+    <p>Un autre paragraphe.</p>
+    <hr />
+    ```
+
+### Adresse de contact
+
+La balise `<address>` est utilisée pour afficher des informations de contact.
+
+!!! exemple "Adresse de contact"
+
+    ```html
+    <address>
+        John Doe<br />
+        john@example.com<br />
+        +1 (123) 456-7890
+    </address>
+    ```
+
+### Texte supprimé et inséré
+
+- `<del>` est utilisé pour indiquer un texte supprimé.
+- `<ins>` est utilisé pour indiquer un texte inséré.
+
+!!! exemple "Texte supprimé et inséré"
+
+    ```html
+    <p>
+        <del>Texte supprimé</del>
+    </p>
+    <p>
+        <ins>Texte inséré</ins>
+    </p>
+    ```
+
+### Définition
+
+La balise `<dfn>` est utilisée pour définir un terme ou une expression.
+
+!!! exemple "Définition"
+
+    ```html
+    <p>
+        <dfn>HTML</dfn> signifie HyperText Markup Language.
+    </p>
+    ```
+
+### Code clavier et Barre de progression
+
+- `<kbd>` est utilisé pour indiquer un code que le visiteur doit taper.
+- `<progress>` est utilisé pour afficher une barre de progression.
+
+!!! exemple "Code clavier et Barre de progression"
+
+    ```html
+    <p>Tapez <kbd>Ctrl+C</kbd> pour copier le texte.</p>
+    <progress value="50" max="100">50%</progress>
+    ```
+
+### Date ou heure
+
+La balise `<time>` est utilisée pour afficher une date ou une heure.
+
+!!! exemple "Date ou heure"
+
+    ```html
+    <p>La réunion aura lieu à <time datetime="2024-02-05T09:00">9:00 AM</time>.</p>
+    ```
+
+### Texte sous forme de code
+
+La balise `<pre>` est utilisée pour afficher du texte comme du code, en conservant la mise en forme et l'espacement.
+
+!!! exemple "Texte sous forme de code"
+
+    ```html
+    <pre>
+        function helloWorld() {
+            console.log("Hello, world!");
+        }
+    </pre>
+    ```
+
+Compris, je vais continuer en conservant la syntaxe que vous avez fournie. Voici la suite de la structure pour les balises de listes avec des exemples sous forme de code :
 
 ## Balises de listes
 
-- `<ul>` : Liste à puces, non numérotée.
-- `<ol>` : Liste numérotée.
-- `<li>` : Élément de la liste à puces.
-- `<dl>` : Liste de définitions.
-- `<dt>` : Définition du terme.
+### Liste à puces, non numérotée
 
+- `<ul>` : Utilisée pour créer une liste à puces, non numérotée.
+
+!!! exemple "Liste à puces"
+
+    ```html
+    <ul>
+        <li>Élément 1</li>
+        <li>Élément 2</li>
+        <li>Élément 3</li>
+    </ul>
+    ```
+
+### Liste numérotée
+
+- `<ol>` : Utilisée pour créer une liste numérotée.
+
+!!! exemple "Liste numérotée"
+
+    ```html
+    <ol>
+        <li>Élément 1</li>
+        <li>Élément 2</li>
+        <li>Élément 3</li>
+    </ol>
+    ```
+
+### Élément de la liste à puces ou numérotée
+
+- `<li>` : Utilisée pour définir un élément de la liste à puces ou numérotée. Cette balise est généralement utilisée à l'intérieur des balises `<ul>` ou `<ol>`.
+
+!!! exemple "Élément de la liste"
+
+    ```html
+    <ul>
+        <li>Élément 1</li>
+        <li>Élément 2</li>
+        <li>Élément 3</li>
+    </ul>
+    
+    <ol>
+        <li>Élément 1</li>
+        <li>Élément 2</li>
+        <li>Élément 3</li>
+    </ol>
+    ```
+
+### Liste de définitions
+
+- `<dl>` : Utilisée pour créer une liste de définitions, généralement constituée de paires de termes et de leurs définitions correspondantes.
+
+!!! exemple "Liste de définitions"
+
+    ```html
+    <dl>
+        <dt>Terme 1</dt>
+        <dd>Définition du terme 1</dd>
+        <dt>Terme 2</dt>
+        <dd>Définition du terme 2</dd>
+        <dt>Terme 3</dt>
+        <dd>Définition du terme 3</dd>
+    </dl>
+    ```
+
+### Définition du terme
+
+- `<dt>` : Utilisée pour définir le terme dans une liste de définitions. Cette balise est généralement utilisée à l'intérieur de la balise `<dl>`.
+
+!!! exemple "Définition du terme"
+
+    ```html
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+    ```
 ## Balises de tableau
 
-- `<table>` : Tableau.
-- `<caption>` : Titre du tableau.
-- `<tr>` : Ligne de tableau.
-- `<th>` : Cellule d'en-tête.
-- `<td>` : Cellule.
-- `<thead>` : Section de l'en-tête du tableau.
-- `<tbody>` : Section du corps du tableau.
-- `<tfoot>` : Section du pied du tableau.
+### Tableau
 
+- `<table>` : Utilisée pour créer un tableau.
+
+!!! exemple "Tableau"
+
+    ```html
+    <table>
+        <!-- Contenu du tableau -->
+    </table>
+    ```
+
+### Titre du tableau
+
+- `<caption>` : Utilisée pour définir le titre du tableau.
+
+!!! exemple "Titre du tableau"
+
+    ```html
+    <table>
+        <caption>Tableau des ventes mensuelles</caption>
+        <!-- Contenu du tableau -->
+    </table>
+    ```
+
+### Ligne de tableau
+
+- `<tr>` : Utilisée pour définir une ligne de tableau.
+
+!!! exemple "Ligne de tableau"
+
+    ```html
+    <table>
+        <tr>
+            <!-- Contenu de la ligne -->
+        </tr>
+    </table>
+    ```
+
+### Cellule d'en-tête
+
+- `<th>` : Utilisée pour définir une cellule d'en-tête dans une ligne de tableau. Cette balise est généralement utilisée dans la section de l'en-tête du tableau (`<thead>`).
+
+!!! exemple "Cellule d'en-tête"
+
+    ```html
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Âge</th>
+            </tr>
+        </thead>
+        <!-- Contenu du tableau -->
+    </table>
+    ```
+
+### Cellule
+
+- `<td>` : Utilisée pour définir une cellule dans une ligne de tableau. Cette balise est généralement utilisée dans la section du corps du tableau (`<tbody>`) ou dans la section du pied du tableau (`<tfoot>`).
+
+!!! exemple "Cellule"
+
+    ```html
+    <table>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+        <!-- Contenu du tableau -->
+    </table>
+    ```
+
+### Section de l'en-tête du tableau
+
+- `<thead>` : Utilisée pour définir la section de l'en-tête du tableau. Cette section contient généralement des cellules d'en-tête (`<th>`).
+
+!!! exemple "Section de l'en-tête du tableau"
+
+    ```html
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Âge</th>
+            </tr>
+        </thead>
+        <!-- Contenu du tableau -->
+    </table>
+    ```
+
+### Section du corps du tableau
+
+- `<tbody>` : Utilisée pour définir la section du corps du tableau. Cette section contient généralement des cellules de données (`<td>`).
+
+!!! exemple "Section du corps du tableau"
+
+    ```html
+    <table>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>30</td>
+                </tr>
+                <tr>
+                <td>Alice</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+        <!-- Contenu du tableau -->
+    </table>
+    ```
+
+### Section du pied du tableau
+
+- `<tfoot>` : Utilisée pour définir la section du pied du tableau. Cette section contient généralement des informations de résumé ou des totaux.
+
+!!! exemple "Section du pied du tableau"
+
+    ```html
+    <table>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>55</td>
+            </tr>
+        </tfoot>
+        <!-- Contenu du tableau -->
+    </table>
+    ```
 ## Balises de formulaire
 
-- `<form>` : Formulaire.
-- `<fieldset>` : Regroupement d'éléments d'un formulaire.
-- `<legend>` : Titre d'un groupe dans un formulaire.
-- `<label>` : Titre d'un élément de formulaire.
-- `<input />` : Champ de formulaire.
-- `<textarea>` : Zone de saisie multiligne.
-- `<select>` : Liste déroulante.
-- `<option>` : Élément d'une liste déroulante.
-- `<optgroup>` : Groupe d'éléments d'une liste déroulante.
+### Formulaire
+
+- `<form>` : Utilisée pour créer un formulaire.
+
+!!! exemple "Formulaire"
+
+    ```html
+    <form action="/traitement" method="post">
+        <!-- Contenu du formulaire -->
+    </form>
+    ```
+
+### Regroupement d'éléments d'un formulaire
+
+- `<fieldset>` : Utilisée pour regrouper des éléments d'un formulaire.
+
+!!! exemple "Regroupement d'éléments"
+
+    ```html
+    <form action="/traitement" method="post">
+        <fieldset>
+            <!-- Éléments du groupe -->
+        </fieldset>
+    </form>
+    ```
+
+### Titre d'un groupe dans un formulaire
+
+- `<legend>` : Utilisée pour définir un titre pour un groupe de champs dans un formulaire. Cette balise est généralement utilisée à l'intérieur de la balise `<fieldset>`.
+
+!!! exemple "Titre d'un groupe"
+
+    ```html
+    <form action="/traitement" method="post">
+        <fieldset>
+            <legend>Informations personnelles</legend>
+            <!-- Éléments du groupe -->
+        </fieldset>
+    </form>
+    ```
+
+### Titre d'un élément de formulaire
+
+- `<label>` : Utilisée pour définir un titre explicatif pour un élément de formulaire, généralement associée à un champ de saisie.
+
+!!! exemple "Titre d'un élément"
+
+    ```html
+    <form action="/traitement" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" />
+    </form>
+    ```
+
+### Champ de formulaire
+
+- `<input />` : Utilisée pour créer un champ de formulaire, tel que champ de texte, case à cocher, bouton radio, etc.
+
+!!! exemple "Champ de formulaire"
+
+    ```html
+    <form action="/traitement" method="post">
+        <input type="text" id="nom" name="nom" />
+        <input type="checkbox" id="souvenir" name="souvenir" />
+    </form>
+    ```
+
+### Zone de saisie multiligne
+
+- `<textarea>` : Utilisée pour créer une zone de saisie de texte multiligne dans un formulaire.
+
+!!! exemple "Zone de saisie multiligne"
+
+    ```html
+    <form action="/traitement" method="post">
+        <textarea id="commentaire" name="commentaire" rows="4" cols="50"></textarea>
+    </form>
+    ```
+
+### Liste déroulante
+
+- `<select>` : Utilisée pour créer une liste déroulante dans un formulaire.
+
+!!! exemple "Liste déroulante"
+
+    ```html
+    <form action="/traitement" method="post">
+        <select id="pays" name="pays">
+            <option value="france">France</option>
+            <option value="espagne">Espagne</option>
+            <option value="italie">Italie</option>
+        </select>
+    </form>
+    ```
+
+### Élément d'une liste déroulante
+
+- `<option>` : Utilisée pour définir chaque élément de la liste déroulante. Cette balise est généralement utilisée à l'intérieur de la balise `<select>`.
+
+!!! exemple "Élément d'une liste déroulante"
+
+    ```html
+        <form action="/traitement" method="post">
+        <select id="pays" name="pays">
+            <option value="france">France</option>
+            <option value="espagne">Espagne</option>
+            <option value="italie">Italie</option>
+        </select>
+    </form>
+    ```
+
+### Groupe d'éléments d'une liste déroulante
+
+- `<optgroup>` : Utilisée pour regrouper des éléments d'une liste déroulante. Cette balise est généralement utilisée à l'intérieur de la balise `<select>`.
+
+!!! exemple "Groupe d'éléments d'une liste déroulante"
+
+    ```html
+    <form action="/traitement" method="post">
+        <select id="pays" name="pays">
+            <optgroup label="Europe">
+                <option value="france">France</option>
+                <option value="espagne">Espagne</option>
+                <option value="italie">Italie</option>
+            </optgroup>
+            <optgroup label="Asie">
+                <option value="chine">Chine</option>
+                <option value="japon">Japon</option>
+            </optgroup>
+        </select>
+    </form>
+    ```
 
 ## Balises sectionnantes
 
-- `<header>` : En-tête.
-- `<nav>` : Liens principaux de navigation.
-- `<footer>` : Pied de page.
-- `<section>`
+### En-tête
 
-  : Section de page.
-  - `<article>` : Article (contenu autonome).
-  - `<aside>` : Informations complémentaires.
+- `<header>` : Utilisée pour définir l'en-tête d'une section ou d'une page.
+
+!!! exemple "En-tête"
+
+    ```html
+    <header>
+        <h1>Titre de l'en-tête</h1>
+        <p>Description de l'en-tête</p>
+    </header>
+    ```
+
+### Liens principaux de navigation
+
+- `<nav>` : Utilisée pour définir une section contenant les liens principaux de navigation d'une page.
+
+!!! exemple "Liens principaux de navigation"
+
+    ```html
+    <nav>
+        <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+    ```
+
+### Pied de page
+
+- `<footer>` : Utilisée pour définir le pied de page d'une section ou d'une page.
+
+!!! exemple "Pied de page"
+
+    ```html
+    <footer>
+        <p>Copyright © 2024 MonSiteWeb</p>
+    </footer>
+    ```
+
+### Section de page
+
+- `<section>` : Utilisée pour définir une section générique d'une page, telle qu'un chapitre, un contenu distinct ou une zone thématique.
+
+!!! exemple "Section de page"
+    
+    ```html
+    <section>
+        <h2>Section principale</h2>
+        <p>Contenu de la section principale.</p>
+    </section>
+    ```
+
+### Article (contenu autonome)
+
+- `<article>` : Utilisée pour définir un contenu autonome et auto-suffisant, tel qu'un article de blog ou une publication.
+
+!!! exemple "Article"
+
+    ```html
+    <article>
+        <h2>Titre de l'article</h2>
+        <p>Contenu de l'article.</p>
+    </article>
+    ```
+
+### Informations complémentaires
+
+- `<aside>` : Utilisée pour définir des informations complémentaires qui sont généralement en dehors du flux principal de contenu.
+
+!!! exemple "Informations complémentaires"
+
+    ```html
+    <aside>
+        <h3>À ne pas manquer</h3>
+        <ul>
+            <li>Actualités</li>
+            <li>Événements à venir</li>
+        </ul>
+    </aside>
+    ```
+
+Bien sûr, voici la continuation de la structure pour les balises génériques, en conservant la syntaxe que vous avez fournie :
 
 ## Balises génériques
 
-- `<span>` : Balise générique de type inline.
-- `<div>` : Balise générique de type block.
+### Balise générique de type inline
+
+- `<span>` : Utilisée pour définir une balise générique de type inline, souvent utilisée pour appliquer des styles ou des scripts à une portion de texte ou de contenu.
+
+!!! exemple "Balise générique de type inline"
+
+    ```html
+    <p>Ceci est un <span style="color: blue;">texte en bleu</span>.</p>
+    ```
+
+### Balise générique de type block
+
+- `<div>` : Utilisée pour définir une balise générique de type block, souvent utilisée pour créer des conteneurs ou des sections de contenu qui occupent toute la largeur disponible.
+
+!!! exemple "Balise générique de type block"
+
+    ```html
+    <div>
+        <h2>Section importante</h2>
+        <p>Contenu de la section importante.</p>
+    </div>
+    ```
+
+Ces balises génériques `<span>` et `<div>` sont polyvalentes et peuvent être utilisées pour envelopper du contenu de manière à appliquer des styles, des scripts ou pour structurer le contenu de la page en utilisant des CSS.
