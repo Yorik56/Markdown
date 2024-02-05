@@ -7,7 +7,7 @@
     --md-primary-bg-color--light: rgb(239, 225, 209);
 
     /* Accent color shades */
-    --md-accent-fg-color: rgb(51, 29, 44);
+    --md-accent-fg-color: #A78295;
     --md-accent-fg-color--transparent: rgba(51, 29, 44, 0.1);
     --md-accent-bg-color: rgba(51, 29, 44, 1);
     --md-accent-bg-color--light: rgba(51, 29, 44, 0.7);
