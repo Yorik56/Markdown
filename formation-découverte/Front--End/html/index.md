@@ -19,6 +19,6 @@ Un langage de marquage est un langage informatique utilisé pour définir la str
 Dans cette partie de la formation, nous allons explorer en détail les balises HTML, qui sont les éléments de base de la création de pages web. Les balises HTML permettent de structurer le contenu, d'ajouter des liens, des images, des listes, des formulaires, et bien plus encore. Vous découvrirez comment utiliser ces balises pour créer des pages web attrayantes et fonctionnelles.
 
 - [Introduction aux Balises HTML](les-balises/01-intro-balises.md)
-- [Les Balises HTML Essentielles](les-balises/balises-html-essentiels/02-balises-html-essentiels.md)
-- [Liste Exhaustive des Balises HTML](les-balises/03-liste-exhaustive-balises.md)
+- [Les Balises HTML Essentielles](les-balises/02-balises-html-essentiels.md)
+- [Liste Exhaustive des Balises HTML](les-balises/balises-html-essentiels/03-liste-exhaustive-balises.md)
 - [Utilisation des Balises Sémantiques](les-balises/04-utilisation-balises-semantiques.md)
