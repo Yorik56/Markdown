@@ -1,1 +1,0 @@
-https://www.it-swarm-fr.com/fr/css/comment-dessiner-un-secteur-de-cercle-en-css/1043877784/
