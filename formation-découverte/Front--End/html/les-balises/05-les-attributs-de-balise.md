@@ -39,7 +39,7 @@ Permet d'incorporer des styles CSS directement sur un élément, bien qu'une app
 
 === "Code source"
     
-```html
+    ```html
     <span style="font-weight: bold;">Texte en gras</span>
     ```
 
