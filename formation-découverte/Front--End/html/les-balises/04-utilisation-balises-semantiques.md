@@ -2,24 +2,36 @@
 title: Utilisation des Balises Sémantiques
 ---
 
-### Module 4 : Utilisation des Balises Sémantiques
+## Introduction
 
-#### En-têtes (header)
+Les balises sémantiques en HTML sont cruciales pour structurer et donner un sens au contenu d'une page Web. Elles permettent aux navigateurs et aux moteurs de recherche de mieux comprendre la signification et la relation entre les différentes parties de votre page. Dans ce module, nous examinerons de près quelques balises sémantiques clés et leur utilisation appropriée.
 
-Les balises sémantiques telles que `<header>` sont utilisées pour définir des en-têtes de sections ou de pages. Elles donnent un sens structurel au contenu.
+## Balises Sémantiques Principales
 
-#### Navigation (nav)
+### `<header>`
 
-La balise `<nav>` est utilisée pour définir la navigation principale d'une page web, généralement sous forme de menus.
+La balise `<header>` est utilisée pour définir l'en-tête d'une section ou d'une page. Elle contient généralement des éléments tels que le logo, le titre principal et les liens de navigation.
 
-#### Sections (section)
+### `<nav>`
 
-Les balises `<section>` sont utilisées pour regrouper des contenus thématiquement liés sur une page web.
+La balise `<nav>` est utilisée pour définir la navigation principale d'une page web. Elle regroupe généralement les liens vers différentes sections ou pages de votre site.
 
-#### Articles (article)
+### `<section>`
 
-La balise `<article>` est utilisée pour définir un contenu autonome et indépendant, tel qu'un article de blog.
+La balise `<section>` est utilisée pour regrouper des contenus thématiquement liés sur une page web. Par exemple, une section pourrait contenir tous les articles d'un blog sur un sujet spécifique.
 
-#### Pieds de page (footer)
+### `<article>`
 
-La balise `<footer>` est utilisée pour définir le pied de page d'une section ou d'une page web, contenant généralement des informations de contact ou de copyright.
+La balise `<article>` est utilisée pour définir un contenu autonome et indépendant. Cela peut inclure des articles de blog, des commentaires, des critiques, etc. Chaque `<article>` devrait être auto-suffisant et avoir un sens même s'il est retiré du contexte de la page.
+
+### `<footer>`
+
+La balise `<footer>` est utilisée pour définir le pied de page d'une section ou d'une page web. Elle contient généralement des informations telles que les coordonnées, les liens vers des pages importantes, les informations de copyright, etc.
+
+### Balises de Titre (`<h1>`, `<h2>`, `<h3>`, etc.)
+
+Les balises de titre sont utilisées pour définir la hiérarchie et l'importance du contenu textuel sur une page web. Par exemple, `<h1>` est généralement utilisé pour le titre principal de la page, tandis que `<h2>` est utilisé pour les sous-titres, et ainsi de suite. Ces balises aident à structurer le contenu et à améliorer son accessibilité et son référencement.
+
+## Conclusion
+
+L'utilisation appropriée des balises sémantiques en HTML est essentielle pour améliorer l'accessibilité, le référencement et la compréhension du contenu par les machines et les utilisateurs. En structurant votre page avec des balises sémantiques, vous contribuez à créer une expérience utilisateur plus cohérente et significative sur le web.
