@@ -16,9 +16,7 @@ Les balises sémantiques en HTML sont cruciales pour structurer et donner un sen
 
 - La balise `<footer>` est utilisée pour définir le pied de page d'une section ou d'une page web. Elle contient généralement des informations telles que les coordonnées, les liens vers des pages importantes, les informations de copyright, etc.
 
-### Balises de Titre (`<h1>`, `<h2>`, `<h3>`, etc.)
-
-Les balises de titre sont utilisées pour définir la hiérarchie et l'importance du contenu textuel sur une page web. Par exemple, `<h1>` est généralement utilisé pour le titre principal de la page, tandis que `<h2>` est utilisé pour les sous-titres, et ainsi de suite. Ces balises aident à structurer le contenu et à améliorer son accessibilité et son référencement.
+- Les balises de titre sont utilisées pour définir la hiérarchie et l'importance du contenu textuel sur une page web. Par exemple, `<h1>` est généralement utilisé pour le titre principal de la page, tandis que `<h2>` est utilisé pour les sous-titres, et ainsi de suite. Ces balises aident à structurer le contenu et à améliorer son accessibilité et son référencement.
 
 ## Conclusion
 
