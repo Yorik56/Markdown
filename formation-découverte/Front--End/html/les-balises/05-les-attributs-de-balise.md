@@ -65,12 +65,12 @@ L'attribut `title` peut également être utilisé pour fournir des informations 
 === "Code source"
 
     ```html
-    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Information" title="Ceci est une info utile"  width="250px">
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Information" title="Ceci est une info utile"  width="150px">
     ```
 
 === "Rendu navigateur"
 
-    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Information" title="Ceci est une info utile"  width="250px">
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Information" title="Ceci est une info utile"  width="150px">
 
 ## Attribut `href` (spécifique à `<a>`)
 
@@ -122,12 +122,12 @@ Spécifie le chemin d'accès de l'image à afficher.
 === "Code source"
 
     ```html
-    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Logo de l'entreprise"  width="250px">
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Logo de l'entreprise"  width="150px">
     ```
 
 === "Rendu navigateur"
 
-    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Logo de l'entreprise"  width="250px">
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Logo de l'entreprise"  width="150px">
 
 ## Attribut `alt` (spécifique à `<img>`)
 
@@ -136,12 +136,12 @@ Fournit une description textuelle de l'image pour l'accessibilité et dans le ca
 === "Code source"
 
     ```html
-    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description" width="250px"/>
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description" width="150px"/>
     ```
 
 === "Rendu navigateur"
 
-    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description"  width="250px"/>
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description"  width="150px"/>
 
 ## Attribut `width` et `height` (spécifiques à `<img>`)
 
