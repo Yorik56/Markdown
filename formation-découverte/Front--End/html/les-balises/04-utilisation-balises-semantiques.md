@@ -6,25 +6,15 @@ Les balises sémantiques en HTML sont cruciales pour structurer et donner un sen
 
 ## Balises Sémantiques Principales
 
-### `<header>`
+- La balise `<header>` est utilisée pour définir l'en-tête d'une section ou d'une page. Elle contient généralement des éléments tels que le logo, le titre principal et les liens de navigation.
 
-La balise `<header>` est utilisée pour définir l'en-tête d'une section ou d'une page. Elle contient généralement des éléments tels que le logo, le titre principal et les liens de navigation.
+- La balise `<nav>` est utilisée pour définir la navigation principale d'une page web. Elle regroupe généralement les liens vers différentes sections ou pages de votre site.
 
-### `<nav>`
+- La balise `<section>` est utilisée pour regrouper des contenus thématiquement liés sur une page web. Par exemple, une section pourrait contenir tous les articles d'un blog sur un sujet spécifique.
 
-La balise `<nav>` est utilisée pour définir la navigation principale d'une page web. Elle regroupe généralement les liens vers différentes sections ou pages de votre site.
+- La balise `<article>` est utilisée pour définir un contenu autonome et indépendant. Cela peut inclure des articles de blog, des commentaires, des critiques, etc. Chaque `<article>` devrait être auto-suffisant et avoir un sens même s'il est retiré du contexte de la page.
 
-### `<section>`
-
-La balise `<section>` est utilisée pour regrouper des contenus thématiquement liés sur une page web. Par exemple, une section pourrait contenir tous les articles d'un blog sur un sujet spécifique.
-
-### `<article>`
-
-La balise `<article>` est utilisée pour définir un contenu autonome et indépendant. Cela peut inclure des articles de blog, des commentaires, des critiques, etc. Chaque `<article>` devrait être auto-suffisant et avoir un sens même s'il est retiré du contexte de la page.
-
-### `<footer>`
-
-La balise `<footer>` est utilisée pour définir le pied de page d'une section ou d'une page web. Elle contient généralement des informations telles que les coordonnées, les liens vers des pages importantes, les informations de copyright, etc.
+- La balise `<footer>` est utilisée pour définir le pied de page d'une section ou d'une page web. Elle contient généralement des informations telles que les coordonnées, les liens vers des pages importantes, les informations de copyright, etc.
 
 ### Balises de Titre (`<h1>`, `<h2>`, `<h3>`, etc.)
 
