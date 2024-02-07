@@ -3,6 +3,7 @@ title: Utilisation des Balises Sémantiques
 ---
 
 Les balises sémantiques en HTML sont cruciales pour structurer et donner un sens au contenu d'une page Web. Elles permettent aux navigateurs et aux moteurs de recherche de mieux comprendre la signification et la relation entre les différentes parties de votre page. Dans ce module, nous examinerons de près quelques balises sémantiques clés et leur utilisation appropriée.
+L'utilisation appropriée des balises sémantiques en HTML est essentielle pour améliorer l'accessibilité, le référencement et la compréhension du contenu par les machines et les utilisateurs. En structurant votre page avec des balises sémantiques, vous contribuez à créer une expérience utilisateur plus cohérente et significative sur le web.
 
 ## Balises Sémantiques Principales
 
@@ -18,6 +19,7 @@ Les balises sémantiques en HTML sont cruciales pour structurer et donner un sen
 
 - Les balises de titre sont utilisées pour définir la hiérarchie et l'importance du contenu textuel sur une page web. Par exemple, `<h1>` est généralement utilisé pour le titre principal de la page, tandis que `<h2>` est utilisé pour les sous-titres, et ainsi de suite. Ces balises aident à structurer le contenu et à améliorer son accessibilité et son référencement.
 
-## Conclusion
+- La balise `<aside>` est utilisée pour définir du contenu qui est "à part" ou qui est indirectement lié au contenu principal, comme des encarts publicitaires, des citations, des biographies d'auteur, etc.
 
-L'utilisation appropriée des balises sémantiques en HTML est essentielle pour améliorer l'accessibilité, le référencement et la compréhension du contenu par les machines et les utilisateurs. En structurant votre page avec des balises sémantiques, vous contribuez à créer une expérience utilisateur plus cohérente et significative sur le web.
+- La balise `<main>` est utilisée pour définir le contenu principal d'une page web. Il ne doit y avoir qu'un seul élément `<main>` par page et il ne doit pas être enfant d'un autre élément de sectionnement, tel que `<article>`, `<aside>`, `<header>`, `<footer>`, ou `<nav>`.
+
