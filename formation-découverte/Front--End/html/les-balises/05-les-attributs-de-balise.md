@@ -65,14 +65,12 @@ L'attribut `title` peut également être utilisé pour fournir des informations 
 === "Code source"
 
     ```html
-    <img src="info.png" alt="Information" title="Ceci est une info utile">
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Information" title="Ceci est une info utile"  width="250px">
     ```
 
 === "Rendu navigateur"
 
-    ```html
-    <img src="info.png" alt="Information" title="Ceci est une info utile">
-    ```
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Information" title="Ceci est une info utile"  width="250px">
 
 ## Attribut `href` (spécifique à `<a>`)
 
@@ -128,12 +126,12 @@ Spécifie le chemin d'accès de l'image à afficher.
 === "Code source"
 
     ```html
-    <img src="logo.png" alt="Logo de l'entreprise">
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Logo de l'entreprise"  width="250px">
     ```
 
 === "Rendu navigateur"
 
-    <img src="logo.png" alt="Logo de l'entreprise">
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Logo de l'entreprise"  width="250px">
 
 ## Attribut `alt` (spécifique à `<img>`)
 
@@ -142,12 +140,12 @@ Fournit une description textuelle de l'image pour l'accessibilité et dans le ca
 === "Code source"
 
     ```html
-    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description" />
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description" width="250px"/>
     ```
 
 === "Rendu navigateur"
 
-    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description" />
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description"  width="250px"/>
 
 ## Attribut `width` et `height` (spécifiques à `<img>`)
 
@@ -156,11 +154,11 @@ Ces attributs permettent de définir respectivement la largeur et la hauteur de 
 === "Code source"
 
     ```html
-    <img src="photo.jpg" alt="Photographie" width="500" height="300">
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Photographie" width="500" height="300">
     ```
 
 === "Rendu navigateur"
 
     ```html
-    <img src="photo.jpg" alt="Photographie" width="500" height="300">
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Photographie" width="500" height="300">
     ```
