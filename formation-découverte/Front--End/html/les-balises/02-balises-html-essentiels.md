@@ -1,69 +1,28 @@
 ---
-title: Les balises essentielles
+title: Les attributs HTML
 ---
 
-## Balises de titre (Hn)
+## href
 
-Les balises `<h1>` à `<h6>` sont utilisées pour définir les niveaux de titre dans une page HTML.
+Rôle: Spécifie l'URL de destination pour un lien hypertexte.
+Utilisé dans: Balise `<a>`.
 
-!!! exemple "Titres"
-    
-    === "Code source"
-        
-        ```html
-        <h1>Titre de niveau 1</h1>
-        <h2>Titre de niveau 2</h2>
-        <h3>Titre de niveau 3</h3>
-        <h4>Titre de niveau 4</h4>
-        <h5>Titre de niveau 5</h5>
-        <h6>Titre de niveau 6</h6>
-        ```
-
-    === "Rendu navigateur"
-        
-        <h1>Titre de niveau 1</h1>
-        <h2>Titre de niveau 2</h2>
-        <h3>Titre de niveau 3</h3>
-        <h4>Titre de niveau 4</h4>
-        <h5>Titre de niveau 5</h5>
-        <h6>Titre de niveau 6</h6>
-        
-## Paragraphe
-
-La balise `<p>` est utilisée pour définir un paragraphe de texte dans le HTML.
-
-!!! exemple "Paragraphe"
+!!! exemple "Lien hypertexte"
 
     === "Code source"
         
         ```html
-        <p>Ceci est un exemple de paragraphe.</p>
+        <a href="https://example.com">Lien vers un site</a>
         ```
 
     === "Rendu navigateur"
         
-        <p>Ceci est un exemple de paragraphe.</p>
+        <a href="https://example.com">Lien vers un site</a>
 
+## src
 
-## Liens hypertextes
-
-La balise `<a>` est utilisée pour créer des liens hypertextes dans le HTML.
-
-!!! exemple "Liens hypertextes"
-
-    === "Code source"
-        
-        ```html
-        <a href="https://exemple.com">Lien vers un site</a>
-        ```
-
-    === "Rendu navigateur"
-        
-        <a href="https://exemple.com">Lien vers un site</a>
-
-## Image
-
-La balise `<img>` est utilisée pour insérer des images dans une page web.
+Rôle: Spécifie l'emplacement de la source (URL) d'un élément, comme une image.
+Utilisé dans: Balise `<img>`, `<script>`, `<iframe>`, etc.
 
 !!! exemple "Image"
 
@@ -75,73 +34,150 @@ La balise `<img>` est utilisée pour insérer des images dans une page web.
 
     === "Rendu navigateur"
         
-        <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Description" style="display:block;margin:auto;width:250px;"/>
+        <img src="image.jpg" alt="Description de l'image" />
 
+## alt
 
-## Liste non ordonnée
+Rôle: Fournit un texte alternatif décrivant l'image lorsque celle-ci ne peut pas être affichée.
+Utilisé dans: Balise `<img>`.
 
-La balise `<ul>` est utilisée pour créer une liste non ordonnée dans le HTML.
-
-!!! exemple "Liste non ordonnée"
+!!! exemple "Image"
 
     === "Code source"
         
         ```html
-        <ul>
-            <li>Élément de liste 1</li>
-            <li>Élément de liste 2</li>
-        </ul>
+        <img src="image.jpg" alt="Description de l'image" />
         ```
 
     === "Rendu navigateur"
         
-        <ul>
-            <li>Élément de liste 1</li>
-            <li>Élément de liste 2</li>
-        </ul>
+        <img src="image.jpg" alt="Description de l'image" />
 
+## id
 
-## Formulaire interactif
+Rôle: Spécifie un identifiant unique pour un élément HTML.
+Utilisé dans: Toutes les balises HTML.
 
-La balise `<form>` est utilisée pour créer un formulaire interactif dans une page web.
-
-!!! exemple "Formulaire interactif"
+!!! exemple "Paragraphe"
 
     === "Code source"
         
         ```html
-        <form action="traitement.php" method="post">
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" />
-            <input type="submit" value="Envoyer" />
+        <p id="paragraphe1">Ceci est un paragraphe.</p>
+        ```
+
+    === "Rendu navigateur"
+        
+        <p id="paragraphe1">Ceci est un paragraphe.</p>
+
+## name
+
+Rôle: Spécifie le nom d'un élément HTML, utilisé dans les formulaires et pour la sélection côté serveur.
+Utilisé dans: Balises `<input>`, `<select>`, `<textarea>`, etc.
+
+!!! exemple "Formulaire"
+
+    === "Code source"
+        
+        ```html
+        <input type="text" name="username" />
+        ```
+
+    === "Rendu navigateur"
+        
+        <input type="text" name="username" />
+
+## method
+
+Rôle: Spécifie la méthode de requête HTTP utilisée lors de l'envoi d'un formulaire.
+Utilisé dans: Balise `<form>`.
+
+!!! exemple "Formulaire"
+
+    === "Code source"
+        
+        ```html
+        <form action="submit.php" method="post">
+            <!-- Contenu du formulaire -->
         </form>
         ```
 
     === "Rendu navigateur"
         
-        <form action="traitement.php" method="post">
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" />
-            <input type="submit" value="Envoyer" />
+        <form action="submit.php" method="post">
+            <!-- Contenu du formulaire -->
         </form>
 
+## action
 
-## Division
+Rôle: Spécifie l'URL où les données du formulaire seront envoyées lors de la soumission.
+Utilisé dans: Balise `<form>`.
 
-La balise `<div>` est utilisée pour diviser et structurer le contenu d'une page web.
-
-!!! exemple "Division"
+!!! exemple "Formulaire"
 
     === "Code source"
         
         ```html
-        <div>
-            <p>Contenu dans une division.</p>
-        </div>
+        <form action="submit.php" method="post">
+            <!-- Contenu du formulaire -->
+        </form>
         ```
 
     === "Rendu navigateur"
         
-        <div>
-            <p>Contenu dans une division.</p>
-        </div>
+        <form action="submit.php" method="post">
+            <!-- Contenu du formulaire -->
+        </form>
+
+## for
+
+Rôle: Spécifie quel champ de formulaire est associé à une étiquette.
+Utilisé dans: Balise `<label>`.
+
+!!! exemple "Formulaire"
+
+    === "Code source"
+        
+        ```html
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" />
+        ```
+
+    === "Rendu navigateur"
+        
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" />
+
+## type
+
+Rôle: Spécifie le type de champ d'un élément `<input>`.
+Utilisé dans: Balise `<input>`.
+
+!!! exemple "Formulaire"
+
+    === "Code source"
+        
+        ```html
+        <input type="text" />
+        ```
+
+    === "Rendu navigateur"
+        
+        <input type="text" />
+
+## value
+
+Rôle: Spécifie la valeur initiale d'un champ de formulaire.
+Utilisé dans: Balise `<input>`, `<button>`.
+    
+!!! exemple "Formulaire"
+
+    === "Code source"
+        
+        ```html
+        <input type="submit" value="Envoyer" />
+        ```
+
+    === "Rendu navigateur"
+        
+        <input type="submit" value="Envoyer" />
