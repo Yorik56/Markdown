@@ -98,9 +98,7 @@ L'attribut `target` définit où ouvrir le lien hypertexte. Il peut prendre des 
 
 === "Rendu navigateur"
 
-    ```html
     <a href="https://www.example.com" target="_blank">Visitez Example.com dans une nouvelle fenêtre</a>
-    ```
 
 ## Attribut `rel` (spécifique à `<a>`)
 
@@ -114,9 +112,7 @@ L'attribut `rel` spécifie la relation entre le document courant et la ressource
 
 === "Rendu navigateur"
 
-    ```html
     <a href="https://www.example.com" rel="nofollow">Visitez Example.com (nofollow)</a>
-    ```
 
 
 ## Attribut `src` (spécifique à `<img>`)
@@ -159,6 +155,4 @@ Ces attributs permettent de définir respectivement la largeur et la hauteur de 
 
 === "Rendu navigateur"
 
-    ```html
     <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Photographie" width="500" height="300">
-    ```
