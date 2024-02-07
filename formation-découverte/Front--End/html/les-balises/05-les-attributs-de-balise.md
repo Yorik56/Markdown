@@ -150,9 +150,9 @@ Ces attributs permettent de définir respectivement la largeur et la hauteur de 
 === "Code source"
 
     ```html
-    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Photographie" width="500" height="300">
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Photographie" width="150" height="auto">
     ```
 
 === "Rendu navigateur"
 
-    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Photographie" width="500" height="300">
+    <img src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/logo.svg" alt="Photographie" width="150" height="auto">
