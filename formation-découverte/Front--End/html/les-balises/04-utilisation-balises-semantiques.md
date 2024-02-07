@@ -3,6 +3,7 @@ title: Utilisation des Balises Sémantiques
 ---
 
 Les balises sémantiques en HTML sont cruciales pour structurer et donner un sens au contenu d'une page Web. Elles permettent aux navigateurs et aux moteurs de recherche de mieux comprendre la signification et la relation entre les différentes parties de votre page. Dans ce module, nous examinerons de près quelques balises sémantiques clés et leur utilisation appropriée.
+
 L'utilisation appropriée des balises sémantiques en HTML est essentielle pour améliorer l'accessibilité, le référencement et la compréhension du contenu par les machines et les utilisateurs. En structurant votre page avec des balises sémantiques, vous contribuez à créer une expérience utilisateur plus cohérente et significative sur le web.
 
 ## Balises Sémantiques Principales
