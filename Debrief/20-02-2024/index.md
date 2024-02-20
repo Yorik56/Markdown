@@ -2,7 +2,7 @@
 title: Débrifing de la réunion du 20/02/2024
 ---
 
-## Vu pendant la réunion : 
+## Vu pendant la réunion
 
 - Prise en main de discord 
 - partage d'écran
