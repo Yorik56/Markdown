@@ -1,5 +1,5 @@
 ---
-title: Débrifing de la réunion du 20/02/2024
+title: Compte rendu de la réunion du 20/02/2024
 ---
 
 ## Vu pendant la réunion
