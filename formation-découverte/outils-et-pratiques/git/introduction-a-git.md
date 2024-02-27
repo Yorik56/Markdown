@@ -4,7 +4,7 @@ title: Introduction à Git
 
 > Documentations officielles : [Git](https://git-scm.com/doc) | [GitHub](https://docs.github.com/fr)
 
-## :fontawesome-git-alt: Git : qu'est-ce que c'est ?
+## :fontawesome-regular-git-alt: Git : qu'est-ce que c'est ?
 
 Git est un système de contrôle de version décentralisé qui permet aux développeurs de suivre l'historique des modifications apportées au code source d'un projet. 
 
