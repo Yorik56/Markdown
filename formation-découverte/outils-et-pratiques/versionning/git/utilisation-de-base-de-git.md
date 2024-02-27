@@ -26,27 +26,21 @@ title: Installation et Utilisation de base de Git
         
         Une fois téléchargé, lancez l'installeur et suivez les instructions.
 
-!!! exemple "Cloner un dépôt"
-    
-    ```bash
-    git clone <url_du_depot>
-    ```
 
-!!! exemple "Ajouter et valider des modifications"
 
-    ```bash
-    git add nom_fichier
-    git commit -m "Message de validation"
-    ```
+```bash title="Cloner un dépôt"
+git clone <url_du_depot>
+```
 
-!!! exemple "Synchroniser depuis un dépôt distant"
+```bash title="Ajouter et valider des modifications"
+git add nom_fichier
+git commit -m "Message de validation"
+```
 
-    ```bash
-    git pull origin nom_branche
-    ```
+```bash title="Synchroniser depuis un dépôt distant"
+git pull origin nom_branche
+```
 
-!!! exemple "Synchroniser vers un dépôt distant"
-
-    ```bash
-    git push origin nom_branche
-    ```
+```bash title="Synchroniser vers un dépôt distant"
+git push origin nom_branche
+```
