@@ -2,8 +2,9 @@
 title: Introduction à Git
 ---
 
-!!! exemple "Ressources supplémentaires"
-    Documentations officielles : [Git](https://git-scm.com/doc) | [GitHub](https://docs.github.com/fr)
+!!! exemple "Documentation officielle"
+    
+    Documentations officielles : [Git](https://git-scm.com/doc)
 
 ## :fontawesome-regular-git-alt: Git : qu'est-ce que c'est ?
 
