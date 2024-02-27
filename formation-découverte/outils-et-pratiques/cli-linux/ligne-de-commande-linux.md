@@ -43,6 +43,12 @@ Rôle: Présente les commandes de base de la ligne de commande Linux et leurs ut
         mkdir nouveau_repertoire
         ```
 
+    - Créer un nouveau fichier :
+
+        ```bash
+        touch nouveau_fichier
+        ```
+
     - Copier un fichier :
     
         ```bash
