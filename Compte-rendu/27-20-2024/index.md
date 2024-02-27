@@ -4,12 +4,12 @@ title: Compte rendu de la réunion du 27/02/2024
 
 ## Vu pendant la réunion
 
-- On a discuté de nos projets pour l'instant Alexia voudrait faire un E-commerce cosmétique et naturel et Bio, Gwladys serait plus branché Etsy pour vendre ses fringues et pourquoi un porteflio...
+- On a discuté de nos projets pour l'instant Alexia voudrait faire un E-commerce (cosmétique naturel et Bio), Gwladys serait plus branché Etsy pour vendre ses fringues et pourquoi un porteflio...
 du coup on pourrait découvrir Wordpress et Drupal.
 
 - introduction à git
 
-- En essayant de se préparer à utiliser git, on a galérer nos projets
+- En essayant de se préparer à utiliser git, on a galéré nos projets
 
     === "Chloé et Gwladys"
 
