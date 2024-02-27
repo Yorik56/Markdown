@@ -26,8 +26,6 @@ title: Installation et Utilisation de base de Git
         
         Une fois téléchargé, lancez l'installeur et suivez les instructions.
 
-
-
 ```bash title="Cloner un dépôt"
 git clone <url_du_depot>
 ```
