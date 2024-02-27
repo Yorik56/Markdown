@@ -2,8 +2,6 @@
 title: Installation et Utilisation de base de Git
 ---
 
-Rôle: Explique comment installer Git sur différents systèmes d'exploitation et fournit les commandes de base pour l'utilisation de Git.
-
 !!! exemple "Installation sur le poste"
 
     === "Mac M1"
