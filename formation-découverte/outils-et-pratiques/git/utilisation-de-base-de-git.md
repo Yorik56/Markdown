@@ -29,29 +29,17 @@ Rôle: Explique comment installer Git sur différents systèmes d'exploitation e
         Une fois téléchargé, lancez l'installeur et suivez les instructions.
 
 !!! exemple "Cloner un dépôt"
-
-    === "Code source"
-        
-        ```bash
+    
+    ```bash
         git clone <url_du_depot>
-        ```
-
-    === "Résultat"
-        
-        Clône le dépôt dans le répertoire local.
+    ```
 
 !!! exemple "Ajouter et valider des modifications"
 
-    === "Code source"
-        
-        ```bash
+     ```bash
         git add nom_fichier
         git commit -m "Message de validation"
         ```
-
-    === "Résultat"
-        
-        Ajoute les modifications au dépôt local et les valide avec un message spécifié.
 
 !!! exemple "Synchroniser avec un dépôt distant"
 
