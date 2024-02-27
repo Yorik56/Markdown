@@ -41,15 +41,14 @@ Rôle: Explique comment installer Git sur différents systèmes d'exploitation e
         git commit -m "Message de validation"
         ```
 
-!!! exemple "Synchroniser avec un dépôt distant"
+!!! exemple "Synchroniser depuis un dépôt distant"
 
-    === "Code source"
-        
-        ```bash
-        git pull origin nom_branche
-        git push origin nom_branche
-        ```
+    ```bash
+    git pull origin nom_branche
+    ```
 
-    === "Résultat"
-        
-        Récupère les modifications depuis le dépôt distant et les envoie vers le dépôt distant spécifié.
+!!! exemple "Synchroniser vers un dépôt distant"
+
+    ```bash
+    git push origin nom_branche
+    ```
