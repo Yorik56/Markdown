@@ -36,10 +36,10 @@ Rôle: Explique comment installer Git sur différents systèmes d'exploitation e
 
 !!! exemple "Ajouter et valider des modifications"
 
-     ```bash
-        git add nom_fichier
-        git commit -m "Message de validation"
-        ```
+    ```bash
+    git add nom_fichier
+    git commit -m "Message de validation"
+    ```
 
 !!! exemple "Synchroniser depuis un dépôt distant"
 
