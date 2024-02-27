@@ -31,7 +31,7 @@ Rôle: Explique comment installer Git sur différents systèmes d'exploitation e
 !!! exemple "Cloner un dépôt"
     
     ```bash
-        git clone <url_du_depot>
+    git clone <url_du_depot>
     ```
 
 !!! exemple "Ajouter et valider des modifications"
