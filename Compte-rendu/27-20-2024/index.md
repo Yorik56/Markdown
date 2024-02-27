@@ -13,11 +13,11 @@ du coup on pourrait découvrir Wordpress et Drupal.
 
     === "Chloé et Gwladys"
 
-        Document/Travel (EZ)
+        Document/Travel
 
     === "Alexia"
 
-        Document/Fichiers linux
+        Document/"Fichiers linux"
 
 - On a découvert les bases de la ligne de commande (cli, commande line interface), sur un système Linux.
 
@@ -27,11 +27,13 @@ du coup on pourrait découvrir Wordpress et Drupal.
 
     === "Alexia"
 
-        Le terminal est épinglé
+        Le terminal est épinglé dans la barre des tâches en bas
 
     === "Chloé"
 
-        Pareil épinglé à la barre des tâches, (cliquer sur la petit flêche qui permet de choisir type de terminal en l'occurence Ubuntu donc linux)
+        Epinglé à la barre des tâches, (cliquer sur la petit flêche qui permet de choisir type de terminal en l'occurence Ubuntu donc linux)
+
+        ![img_1.png](img_1.png)
 
 
 ## Prévision
