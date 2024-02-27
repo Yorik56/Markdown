@@ -9,7 +9,7 @@ du coup on pourrait découvrir Wordpress et Drupal.
 
 - introduction à git
 
-- En essayant de se préparer à utiliser git, on a galéré nos projets
+- En essayant de se préparer à utiliser git, on a galéré à retrouver nos projets
 
     === "Chloé et Gwladys"
 
