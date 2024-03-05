@@ -5,10 +5,10 @@ title: Compte rendu de la réunion du 05/03/2024
 ## Vu pendant la réunion
 
 - Comment split un écran en deux sur son pc pour faire plusieurs trucs en même temps
-- utilisations d'écouteur pour pas qu'on s'entende dans le haut parleur 
-- Sur Discord comment chager le péripherique de sortie
+- utilisations d'écouteurs pour ne pas que l'ont s'entende dans les haut-parleurs 
+- Sur Discord comment changer le périphérique de sortie audio
 - Découverte CLI Linux
-- Découverte de l'outil de versionning git
+- Découverte de l'outil de versioning git
 
 
 ## Prévision
