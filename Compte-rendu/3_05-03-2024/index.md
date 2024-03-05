@@ -1,5 +1,5 @@
 ---
-title: 03 - Compte rendu de la réunion du 05/03/2024
+title: Compte rendu de la réunion du 05/03/2024
 ---
 
 ## Vu pendant la réunion
