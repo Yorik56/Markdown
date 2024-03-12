@@ -71,12 +71,15 @@ Pour explorer ses concepts fondamentaux, débutons par la création d'un nouveau
 À ce stade, nous avons établi un nouveau répertoire qui n'est pas encore sous le contrôle de Git. Ce dernier n'a pas connaissance de l'existence de ce dossier ni n'a commencé à le suivre.
 
 === "Création d'un réprtoire avec la CLI"
+
     ```bash title="Créer un dossier"
     mkdir new_project # Créer un nouveau dossier
     cd new_project # Accéder au dossier
     ```
+
 === "Affichage du répertoire dans un explorateur de fichiers"
-  ![mkdir](./assets/utilisation-de-base-de-git/1710276518348.png)
+
+	![mkdir](./assets/utilisation-de-base-de-git/1710276518348.png)
 
 
 ### Initialisation du suivi avec Git
@@ -90,9 +93,14 @@ git init # Initialiser le suivi avec Git
 Cela crée un sous-dossier `.git` contenant les informations nécessaires pour suivre les modifications des fichiers du projet.
 
 === "Initialisation du suivi avec Git en CLI"
-    ![git-init](./assets/utilisation-de-base-de-git/1710274976233.png)
-=== "Affichage du répertoire dans un explorateur de fichiers"
-    ![git-init](./assets/utilisation-de-base-de-git/1710276743540.png)
+
+	![git-init](./assets/utilisation-de-base-de-git/1710274976233.png)
+
+=== "Affichage du répertoire via une interface graphique"	
+
+	Ci-dessous, on peut constater que le répertoire est maintenant suivi par Git, car il contient la mention "master / Ø". 
+
+	![git-init](./assets/utilisation-de-base-de-git/1710276743540.png)
 
 ### Vérification de l'état du dépôt
 
@@ -107,8 +115,11 @@ git status
 Dans l'exemple ci-dessous, nous pouvons voir que le dépôt est propre et ne contient aucune modification.
 
 === "Vérification de l'état du dépôt en CLI"
-    ![git-status-just-after-init](./assets/utilisation-de-base-de-git/1710275366020.png)
-=== "Affichage du répertoire dans un explorateur de fichiers"
+
+	![git-status-just-after-init](./assets/utilisation-de-base-de-git/1710275366020.png)
+
+=== "Affichage du répertoire via une interface graphique"
+
     ![repo-state](./assets/utilisation-de-base-de-git/1710276945911.png)
 
 ### Staging
