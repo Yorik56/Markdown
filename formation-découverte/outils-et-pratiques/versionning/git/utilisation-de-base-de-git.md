@@ -2,6 +2,12 @@
 title: Installation et Utilisation de base de Git
 ---
 
+WORK IN PROGRESS
+
+## Installer l'outil Git CLI
+
+Git CLI est un outil en ligne de commande qui permet de gérer les dépôts Git locaux et distants. Il est disponible pour les systèmes d'exploitation les plus courants, notamment Linux, Mac et Windows.
+
 !!! exemple "Installation sur le poste"
 
     === "Mac M1"
@@ -26,13 +32,11 @@ title: Installation et Utilisation de base de Git
         
         Une fois téléchargé, lancez l'installeur et suivez les instructions.
 
+
+## Utilisation de base de Git
+
 ```bash title="Cloner un dépôt"
 git clone <url_du_depot>
-```
-
-```bash title="Ajouter et valider des modifications"
-git add nom_fichier
-git commit -m "Message de validation"
 ```
 
 ```bash title="Synchroniser depuis un dépôt distant"
@@ -42,14 +46,6 @@ git pull origin nom_branche
 ```bash title="Synchroniser vers un dépôt distant"
 git push origin nom_branche
 ```
-
----------
-
-- **Création d'un répertoire :** `mkdir nom_du_dossier`
-
-- **Staging avec git add :** `git add nom_du_fichier`
-
-- **Création d'un commit :** `git commit -m "Message descriptif"`
 
 - **Push d'un commit :** `git push origin nom_de_la_branche`
 
@@ -61,37 +57,14 @@ git push origin nom_branche
 
 - **Fusion de branches :** `git merge nom_de_la_branche`
 
-## Fonctionnalités avancées
 
-- **Révision de l'historique :** `git log`
 
-- **Gestion des conflits :** À résoudre manuellement après une fusion de branches.
-
-- **Réinitialisation des modifications :** `git reset nom_du_fichier`
-
-- **Rétablissement des modifications :** `git checkout -- nom_du_fichier`
-
-- **Étiquetage des versions :** `git tag nom_de_la_version`
-
-## Bonnes pratiques
-
-- **Messages de commit significatifs :** Écrire des messages descriptifs pour chaque commit.
-
-- **Fréquence des commits :** Effectuer des commits atomiques et réguliers pour faciliter la gestion des versions.
-
-- **Utilisation de branches temporaires :** Créer des branches temporaires pour expérimenter sans risquer le code principal.
-
-- **Documentation du projet :** Tenir à jour la documentation du projet pour faciliter la collaboration.
-
-## Ressources supplémentaires
-
-- Documentation officielle : [Git](https://git-scm.com/doc)
 
 -------------------------
 
 Git est un système de contrôle de version qui simplifie la collaboration et le suivi des modifications lors du développement de logiciels.
 
-## Création d'un répertoire
+### Création d'un répertoire
 
 Pour explorer ses concepts fondamentaux, débutons par la création d'un nouveau dossier.
 
@@ -106,7 +79,7 @@ Pour explorer ses concepts fondamentaux, débutons par la création d'un nouveau
   ![mkdir](./assets/utilisation-de-base-de-git/1710276518348.png)
 
 
-## Initialisation du suivi avec Git
+### Initialisation du suivi avec Git
 
 Maintenant, nous allons configurer un dépôt Git. `git init` est une commande qui initialise un nouveau dépôt Git dans un répertoire existant.
 
@@ -121,7 +94,7 @@ Cela crée un sous-dossier `.git` contenant les informations nécessaires pour s
 === "Affichage du répertoire dans un explorateur de fichiers"
     ![git-init](./assets/utilisation-de-base-de-git/1710276743540.png)
 
-## Vérification de l'état du dépôt
+### Vérification de l'état du dépôt
 
 A tout moment, après avoir effectué des modifications dans votre projet (création/modification/suppression de fichiers), vous pouvez vérifier l'état des fichiers en utilisant la commande `git status`. 
 
@@ -138,6 +111,7 @@ Dans l'exemple ci-dessous, nous pouvons voir que le dépôt est propre et ne con
 === "Affichage du répertoire dans un explorateur de fichiers"
     ![repo-state](./assets/utilisation-de-base-de-git/1710276945911.png)
 
+### Staging
 
 Maintenant non allons créer un fichier `README.md` et re-effectuer une vérification de l'état du dépôt, pour constater l'intérêt de la commande `git status`.
 
@@ -196,7 +170,7 @@ Ci-dessous, nous pouvons voir que le fichier `README.md` est maintenant listé c
     ![after-staging](./assets/utilisation-de-base-de-git/1710277773031.png)
 
 
-## Création d'un commit
+### Création d'un commit
 
 Maintenant que nous avons ajouté le fichier `README.md` à la zone de staging, nous pouvons créer un commit. 
 
@@ -219,4 +193,31 @@ L'indication « 1 file changed, 0 insertions(+), 0 deletions(-) » est un résum
 
 ![first-commit](./assets/utilisation-de-base-de-git/1710276012322.png)
 
+----------------- 
 
+## Bonnes pratiques
+
+- **Messages de commit significatifs :** Écrire des messages descriptifs pour chaque commit.
+
+- **Fréquence des commits :** Effectuer des commits atomiques et réguliers pour faciliter la gestion des versions.
+
+- **Utilisation de branches temporaires :** Créer des branches temporaires pour expérimenter sans risquer le code principal.
+
+- **Documentation du projet :** Tenir à jour la documentation du projet pour faciliter la collaboration.
+
+## Fonctionnalités avancées
+
+- **Révision de l'historique :** `git log`
+
+- **Gestion des conflits :** À résoudre manuellement après une fusion de branches.
+
+- **Réinitialisation des modifications :** `git reset nom_du_fichier`
+
+- **Rétablissement des modifications :** `git checkout -- nom_du_fichier`
+
+- **Étiquetage des versions :** `git tag nom_de_la_version`
+
+
+## Ressources supplémentaires
+
+- Documentation officielle : [Git](https://git-scm.com/doc)
