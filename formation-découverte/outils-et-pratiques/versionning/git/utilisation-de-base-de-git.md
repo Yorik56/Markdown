@@ -79,7 +79,7 @@ Pour explorer ses concepts fondamentaux, débutons par la création d'un nouveau
 
 === "Affichage du répertoire dans un explorateur de fichiers"
 
-	![mkdir](./assets/utilisation-de-base-de-git/1710279581338.png)
+	![mkdir](./assets/utilisation-de-base-de-git/1710279613055.png)
 
 
 ### Initialisation du suivi avec Git
