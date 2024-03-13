@@ -72,6 +72,8 @@ Pour commencer, nous allons créer un nouveau répertoire.
 
 Le système de contrôle de version Git, n'a pas encore enregistré l'existence de ce dossier ni commencé à le suivre.
 
+A ce stade il est impossible d'interagir avec Git, car il n'est pas encore configuré pour suivre les modifications de ce répertoire.
+
 === "Création d'un répertoire avec la CLI"
 
     ```bash title="Créer un dossier"
@@ -84,17 +86,19 @@ Le système de contrôle de version Git, n'a pas encore enregistré l'existence 
 	![mkdir](./assets/utilisation-de-base-de-git/1710279613055.png)
 
 
-### Initialisation du suivi avec Git
+### Initialisation du dépôt Git
 
-Maintenant, nous allons configurer un dépôt Git. `git init` est une commande qui initialise un nouveau dépôt Git dans un répertoire existant.
+Maintenant, nous allons configurer un dépôt Git. 
+
+`git init` est une commande qui initialise un nouveau dépôt Git dans un répertoire existant.
 
 ```bash title="Initialiser le suivi avec Git"
 git init # Initialiser le suivi avec Git
 ```
 
-Cela crée un sous-dossier `.git` contenant les informations nécessaires pour suivre les modifications des fichiers du projet.
+Cette commande créée un sous-dossier `.git` contenant les informations nécessaires pour suivre les modifications des fichiers du projet.
 
-=== "Initialisation du suivi avec Git en CLI"
+=== "La création du dépôt GIT est possible grâce à la création du dossier caché .git"
 
 	![git-init](./assets/utilisation-de-base-de-git/1710274976233.png)
 
