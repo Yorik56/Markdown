@@ -231,7 +231,8 @@ git log
 
       Cette commande nous fait entrer dans le journal de l'historique des commits. Pour quitter cet affichage, appuyez sur la touche "Q" de votre clavier.
 
-    ![git-log-cli](./assets/utilisation-de-base-de-git/1710293105770.png)
+    ![git-log-cli](./assets/utilisation-de-base-de-git/1710293454786.png)
+
 
 === "Affichage de l'historique des commits dans un explorateur de fichiers"
 
