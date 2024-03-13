@@ -223,13 +223,13 @@ Le commit a été ajouté à la branche principale du dépôt, appelée `main`.
 
 Pour afficher l'historique des commits, vous pouvez utiliser la commande `git log`.
 
-```bash title="Afficher l'historique des commits"
-git log
-```
-
 === "Affichage de l'historique des commits en CLI"
 
-      Cette commande nous fait entrer dans le journal de l'historique des commits. Pour quitter cet affichage, appuyez sur la touche "Q" de votre clavier.
+    ```bash title="Afficher l'historique des commits"
+    git log
+    ```
+
+    Cette commande nous fait entrer dans le journal de l'historique des commits. Pour quitter cet affichage, appuyez sur la touche "Q" de votre clavier.
 
     ![git-log-cli](./assets/utilisation-de-base-de-git/1710293454786.png)
 
