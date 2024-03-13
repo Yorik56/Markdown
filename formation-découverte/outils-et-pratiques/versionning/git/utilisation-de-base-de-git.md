@@ -130,7 +130,7 @@ Dans l'exemple ci-dessous, nous pouvons voir que le dépôt est vide et ne conti
 
 ### Staging
 
-Maintenant non allons créer un fichier `README.md` et re-effectuer une vérification de l'état du dépôt, pour constater l'intérêt de la commande `git status`.
+Maintenant non allons créer un fichier `README.md` et puis effectuer une nouvelle vérification de l'état du dépôt, pour constater l'intérêt de la commande `git status`.
 
 ```bash title="Créer un fichier README.md"
 touch README.md
@@ -139,9 +139,13 @@ touch README.md
 Nous pouvons voir que le fichier `README.md` a été créé avec succès...
 
 === "Vérification de l'existance du fichier README.md"
-    ![ls](./assets/utilisation-de-base-de-git/1710277299802.png)    
+
+    ![ls](./assets/utilisation-de-base-de-git/1710277299802.png)
+
 === "Affichage du répertoire dans un explorateur de fichiers"
+
     On peut voir que le fichier `README.md` a été créé avec succès. Et qu'il n'est pas encore suivi par Git, car il apparaît en rouge. 
+    
     ![unstaged-file](./assets/utilisation-de-base-de-git/1710277174562.png)
 
 Si on vérifie à nouveau l'état du dépôt
@@ -149,7 +153,7 @@ Si on vérifie à nouveau l'état du dépôt
 ```bash title="Vérifier l'état des fichiers"
 git status
 ```
-on peut voir que le fichier `README.md` est listé comme un nouveau fichier non suivi par Git.
+On constate que le fichier `README.md` est listé comme un nouveau fichier non suivi par Git.
 
 ![git-status-new-file](./assets/utilisation-de-base-de-git/1710275630000.png)
 
