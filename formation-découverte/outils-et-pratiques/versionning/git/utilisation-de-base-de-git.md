@@ -296,6 +296,8 @@ Pour afficher la liste des branches, nous allons utiliser la commande `git branc
     git branch
     ```
 
+	![git-branch-cli](./assets/utilisation-de-base-de-git/1710295366666.png)
+
 === "Affichage des branches via l'interface graphique"
 
     ![git-branch-gui](./assets/utilisation-de-base-de-git/1710294671946.png)
