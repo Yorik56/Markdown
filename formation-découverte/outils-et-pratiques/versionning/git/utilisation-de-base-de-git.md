@@ -105,7 +105,7 @@ Dans l'exemple ci-dessous, nous pouvons voir que le dépôt est vide et ne conti
 
 ### Staging
 
-Maintenant non allons créer un fichier `README.md` et puis effectuer une nouvelle vérification de l'état du dépôt, pour constater l'intérêt de la commande `git status`.
+Maintenant non allons créer un fichier `README.md`, puis effectuer une nouvelle vérification de l'état du dépôt, pour constater l'intérêt de la commande `git status`.
 
 ```bash title="Créer un fichier README.md"
 touch README.md
