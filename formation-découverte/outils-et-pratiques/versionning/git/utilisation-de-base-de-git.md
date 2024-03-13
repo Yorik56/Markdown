@@ -35,36 +35,11 @@ Git CLI est un outil en ligne de commande qui permet de gérer les dépôts Git 
 
 ## Utilisation de base de Git
 
-```bash title="Cloner un dépôt"
-git clone <url_du_depot>
-```
-
-```bash title="Synchroniser depuis un dépôt distant"
-git pull origin nom_branche
-```
-
-```bash title="Synchroniser vers un dépôt distant"
-git push origin nom_branche
-```
-
-- **Push d'un commit :** `git push origin nom_de_la_branche`
-
-- **Création et utilisation de branches :**
-    - Créer une branche : `git branch nom_de_la_branche`
-    - Changer de branche : `git checkout nom_de_la_branche`
-
-- **Définition du répertoire d'origine :** `git remote add origin URL_du_projet`
-
-- **Fusion de branches :** `git merge nom_de_la_branche`
-
-
-
-
--------------------------
-
 Git est un système de contrôle de version qui simplifie la collaboration et le suivi des modifications lors du développement de logiciels.
 
 Nous allons découvrir les concepts fondamentaux à travers la création d'un projet.
+
+TODO git clone / git introduction aux branches
 
 ### Création d'un répertoire
 
@@ -240,6 +215,101 @@ Pour afficher l'historique des commits, vous pouvez utiliser la commande `git lo
 
     ![git-log-gui](./assets/utilisation-de-base-de-git/1710293025568.png)
 
+
+## Connexion à un dépôt distant
+
+Avant de pouvoir pousser notre commit vers un dépôt distant, nous devons d'abord connecter notre dépôt local à un dépôt distant.
+
+Pour ce faire, nous allons utiliser la commande `git remote add origin <url_du_depot>`.
+
+=== "Connexion à un dépôt distant en CLI"
+
+    ```bash title="Connexion à un dépôt distant"
+    git remote add origin <url_du_depot> # Connexion à un dépôt distant
+    ```
+
+## Push et Pull
+
+Une fois que notre dépôt local est connecté à un dépôt distant, nous pouvons pousser notre commit vers le dépôt distant en utilisant la commande `git push`.
+
+=== "Push d'un commit en CLI"
+
+    ```bash title="Pousser un commit vers le dépôt distant"
+    git push origin main # Pousser un commit vers le dépôt distant
+    ```
+=== "Push d'un commit via l'interface graphique"
+
+    ![git-push](./assets/utilisation-de-base-de-git/1710294478000.png)
+
+
+Pour récupérer les dernières modifications du dépôt distant, nous pouvons utiliser la commande `git pull`.
+
+=== "Pull des dernières modifications du dépôt distant en CLI"
+
+    ```bash title="Récupérer les dernières modifications du dépôt distant"
+    git pull origin main # Récupérer les dernières modifications du dépôt distant
+    ```
+=== "Pull des dernières modifications du dépôt distant via l'interface graphique"
+  
+    ![git-pull](./assets/utilisation-de-base-de-git/1710294458851.png)
+
+
+## Création et utilisation de branches
+
+Les branches sont des versions parallèles du code source d'un projet. Elles permettent de travailler sur des fonctionnalités ou des correctifs sans affecter le code principal.
+
+### Création d'une branche
+
+Pour créer une nouvelle branche, nous allons utiliser la commande `git branch`.
+
+=== "Création d'une branche en CLI"
+
+    ```bash title="Créer une nouvelle branche"
+    git branch nom_de_la_branche # Créer une nouvelle branche
+    ```
+
+=== "Création d'une branche via l'interface graphique"
+  
+    ![git-branch](./assets/utilisation-de-base-de-git/1710294544132.png)
+
+### Changer de branche
+
+Pour changer de branche, nous allons utiliser la commande `git checkout`.
+
+=== "Changer de branche en CLI"
+
+    ```bash title="Changer de branche"
+    git checkout nom_de_la_branche # Changer de branche
+    ```
+=== "Changer de branche via l'interface graphique"
+
+    ![git-checkout-gui](./assets/utilisation-de-base-de-git/1710294617312.png)
+
+
+### Affichage des branches
+
+Pour afficher la liste des branches, nous allons utiliser la commande `git branch`.
+
+=== "Affichage des branches en CLI"
+
+    ```bash title="Afficher la liste des branches"
+    git branch # Afficher la liste des branches
+    ```
+
+=== "Affichage des branches via l'interface graphique"
+
+    ![git-branch-gui](./assets/utilisation-de-base-de-git/1710294671946.png)
+
+
+## Fusion de branches
+
+Pour fusionner une branche avec la branche principale, nous allons utiliser la commande `git merge`.
+
+=== "Fusion de branches en CLI"
+
+    ```bash title="Fusionner une branche avec la branche principale"
+    git merge nom_de_la_branche # Fusionner une branche avec la branche principale
+    ```
 
 ----------------- 
 
