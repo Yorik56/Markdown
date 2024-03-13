@@ -188,7 +188,7 @@ Ci-dessous, nous pouvons voir que le fichier `README.md` est maintenant listé c
 
     ![git-status-file-staged](./assets/utilisation-de-base-de-git/1710275822006.png)
 
-=== "Affichage du répertoire après le staging dans un explorateur de fichiers"
+=== "Affichage du dépôt après le staging dans un explorateur de fichiers"
 
     On peut voir que le fichier `README.md` a été ajouté à la zone de staging, car il apparaît en vert.
     ![after-staging](./assets/utilisation-de-base-de-git/1710277773031.png)
@@ -216,6 +216,29 @@ Cela crée un commit avec le message "Initial commit" qui capture l'état actuel
 L'indication « 1 file changed, 0 insertions(+), 0 deletions(-) » est un résumé des changements apportés à un fichier dans un commit Git. Voici ce que chaque partie signifie :
 
 ![first-commit](./assets/utilisation-de-base-de-git/1710276012322.png)
+
+Une fois le commit créé, le fichier `README.md` est retiré de la zone de staging et est maintenant suivi par Git.
+
+Le commit a été ajouté à la branche principale du dépôt, appelée `main`. 
+
+Pour afficher l'historique des commits, vous pouvez utiliser la commande `git log`.
+
+```bash title="Afficher l'historique des commits"
+git log
+```
+
+=== "Affichage de l'historique des commits en CLI"
+
+      Cette commande nous fait entrer dans le journal de l'historique des commits. Pour quitter cet affichage, appuyez sur la touche "Q" de votre clavier.
+
+    ![git-log-cli](./assets/utilisation-de-base-de-git/1710293105770.png)
+
+=== "Affichage de l'historique des commits dans un explorateur de fichiers"
+
+    Voici comment afficher l'historique des commits en utilisant l'interface graphique dans le logiciel PHP Storm de la suite Jetbrains.
+
+    ![git-log-gui](./assets/utilisation-de-base-de-git/1710293025568.png)
+
 
 ----------------- 
 
