@@ -102,7 +102,7 @@ Cette commande créée un sous-dossier `.git` contenant les informations nécess
 
 	![git-init](./assets/utilisation-de-base-de-git/1710274976233.png)
 
-=== "Affichage du répertoire via une interface graphique"	
+=== "Affichage du dépôt via une interface graphique"	
 
 	Ci-dessous, on peut constater que le répertoire est maintenant suivi par Git, car il contient la mention "master / Ø". 
 
@@ -118,13 +118,13 @@ Cela vous permettra de voir quels fichiers ont été modifiés, ajoutés à la z
 git status
 ```
 
-Dans l'exemple ci-dessous, nous pouvons voir que le dépôt est propre et ne contient aucune modification.
+Dans l'exemple ci-dessous, nous pouvons voir que le dépôt est vide et ne contient aucune modification.
 
 === "Vérification de l'état du dépôt en CLI"
 
 	![git-status-just-after-init](./assets/utilisation-de-base-de-git/1710275366020.png)
 
-=== "Affichage du répertoire via une interface graphique"
+=== "Affichage du dépôt via une interface graphique"
 
     ![repo-state](./assets/utilisation-de-base-de-git/1710276945911.png)
 
