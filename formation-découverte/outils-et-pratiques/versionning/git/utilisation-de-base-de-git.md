@@ -303,7 +303,7 @@ Pour afficher la liste des branches, nous allons utiliser la commande `git branc
     ![git-branch-gui](./assets/utilisation-de-base-de-git/1710294671946.png)
 
 
-## Fusion de branches
+### Fusion de branches
 
 Pour fusionner une branche avec la branche principale, nous allons utiliser la commande `git merge`.
 
