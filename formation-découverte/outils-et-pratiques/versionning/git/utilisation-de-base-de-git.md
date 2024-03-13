@@ -216,7 +216,7 @@ Pour afficher l'historique des commits, vous pouvez utiliser la commande `git lo
     ![git-log-gui](./assets/utilisation-de-base-de-git/1710293025568.png)
 
 
-## Connexion à un dépôt distant
+### Connexion à un dépôt distant
 
 Avant de pouvoir pousser notre commit vers un dépôt distant, nous devons d'abord connecter notre dépôt local à un dépôt distant.
 
@@ -228,7 +228,7 @@ Pour ce faire, nous allons utiliser la commande `git remote add origin <url_du_d
     git remote add origin <url_du_depot>
     ```
 
-## Push et Pull
+### Push et Pull
 
 Une fois que notre dépôt local est connecté à un dépôt distant, nous pouvons pousser notre commit vers le dépôt distant en utilisant la commande `git push`.
 
