@@ -265,7 +265,7 @@ Pour créer une nouvelle branche, nous allons utiliser la commande `git branch`.
 === "Création d'une branche en CLI"
 
     ```bash title="Créer une nouvelle branche"
-    git branch nom_de_la_branche # Créer une nouvelle branche
+    git branch nom_de_la_branche
     ```
 
 === "Création d'une branche via l'interface graphique"
