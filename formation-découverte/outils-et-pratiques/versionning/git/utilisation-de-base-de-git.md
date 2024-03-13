@@ -64,13 +64,15 @@ git push origin nom_branche
 
 Git est un système de contrôle de version qui simplifie la collaboration et le suivi des modifications lors du développement de logiciels.
 
+Nous allons découvrir les concepts fondamentaux à travers la création d'un projet.
+
 ### Création d'un répertoire
 
-Pour explorer ses concepts fondamentaux, débutons par la création d'un nouveau dossier.
+Pour commencer, nous allons créer un nouveau répertoire. 
 
-À ce stade, nous avons établi un nouveau répertoire qui n'est pas encore sous le contrôle de Git. Ce dernier n'a pas connaissance de l'existence de ce dossier ni n'a commencé à le suivre.
+Le système de contrôle de version Git, n'a pas encore enregistré l'existence de ce dossier ni commencé à le suivre.
 
-=== "Création d'un réprtoire avec la CLI"
+=== "Création d'un répertoire avec la CLI"
 
     ```bash title="Créer un dossier"
     mkdir new_project # Créer un nouveau dossier
