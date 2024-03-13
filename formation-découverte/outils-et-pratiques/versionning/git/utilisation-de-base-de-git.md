@@ -52,8 +52,8 @@ A ce stade il est impossible d'interagir avec Git, car il n'est pas encore confi
 === "Création d'un répertoire avec la CLI"
 
     ```bash title="Créer un dossier"
-    mkdir new_project # Créer un nouveau dossier
-    cd new_project # Accéder au dossier
+    mkdir new_project
+    cd new_project
     ```
 
 === "Affichage du répertoire dans un explorateur de fichiers"
@@ -68,7 +68,7 @@ Maintenant, nous allons configurer un dépôt Git.
 `git init` est une commande qui initialise un nouveau dépôt Git dans un répertoire existant.
 
 ```bash title="Initialiser le suivi avec Git"
-git init # Initialiser le suivi avec Git
+git init
 ```
 
 Cette commande créée un sous-dossier `.git` contenant les informations nécessaires pour suivre les modifications des fichiers du projet.
