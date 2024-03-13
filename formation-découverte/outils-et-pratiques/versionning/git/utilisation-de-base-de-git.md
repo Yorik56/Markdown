@@ -279,7 +279,7 @@ Pour changer de branche, nous allons utiliser la commande `git checkout`.
 === "Changer de branche en CLI"
 
     ```bash title="Changer de branche"
-    git checkout nom_de_la_branche # Changer de branche
+    git checkout nom_de_la_branche
     ```
 === "Changer de branche via l'interface graphique"
 
@@ -293,7 +293,7 @@ Pour afficher la liste des branches, nous allons utiliser la commande `git branc
 === "Affichage des branches en CLI"
 
     ```bash title="Afficher la liste des branches"
-    git branch # Afficher la liste des branches
+    git branch
     ```
 
 === "Affichage des branches via l'interface graphique"
@@ -308,7 +308,7 @@ Pour fusionner une branche avec la branche principale, nous allons utiliser la c
 === "Fusion de branches en CLI"
 
     ```bash title="Fusionner une branche avec la branche principale"
-    git merge nom_de_la_branche # Fusionner une branche avec la branche principale
+    git merge nom_de_la_branche
     ```
 
 ----------------- 
