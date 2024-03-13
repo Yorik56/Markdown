@@ -138,13 +138,13 @@ touch README.md
 
 Nous pouvons voir que le fichier `README.md` a été créé avec succès...
 
-=== "Vérification de l'existance du fichier README.md"
+=== "Vérification de l'existence du fichier README.md"
 
     ![ls](./assets/utilisation-de-base-de-git/1710277299802.png)
 
-=== "Affichage du répertoire dans un explorateur de fichiers"
+=== "Affichage du dépôt dans un explorateur de fichiers"
 
-    On peut voir que le fichier `README.md` a été créé avec succès. Et qu'il n'est pas encore suivi par Git, car il apparaît en rouge. 
+    On peut voir que le fichier `README.md` a été créé avec succès et qu'il n'est pas encore suivi par Git, car il apparaît en rouge. 
     
     ![unstaged-file](./assets/utilisation-de-base-de-git/1710277174562.png)
 
@@ -157,19 +157,22 @@ On constate que le fichier `README.md` est listé comme un nouveau fichier non s
 
 ![git-status-new-file](./assets/utilisation-de-base-de-git/1710275630000.png)
 
-À présent, il est temps d'introduire la notion de staging avec `git add`. Cette commande permet d'ajouter des fichiers à la zone de staging, préparant ainsi leur inclusion dans le prochain commit.
+À présent, il est temps d'introduire la notion de staging avec `git add`.
+
+Cette commande permet d'ajouter des fichiers à la zone de staging, préparant ainsi leur inclusion dans le prochain commit.
 
 Le "staging" est une étape intermédiaire dans Git où vous sélectionnez les modifications que vous souhaitez inclure dans votre prochain commit en utilisant la commande git add. Cela vous permet de contrôler précisément les changements que vous enregistrez dans l'historique de version de votre projet.
 
 === "Staging du fichier README.md en CLI"
     
-    ```bash title="Staging du fichier README.md en CLI"
-     # Ajouter tous les fichiers à la zone de staging 
-     # "." signifie tous les fichiers à partir du répertoire courant
+    ```bash title="Ajout du README.md à la zone de staging"
     git add README.md
     ```
-=== "Affichage du répertoire dans un explorateur de fichiers"
+
+=== "Affichage du dépôt dans un explorateur de fichiers"
+
     Voici comment effectuer la même action en utilisant l'interface graphique dans le logiciel PHP Storm de la suite Jetbrains.
+
     ![staging-using-interface](./assets/utilisation-de-base-de-git/1710277645593.png)
 
 
