@@ -178,7 +178,7 @@ Un commit est une capture instantanée des modifications apportées à un projet
 === "Création d'un commit en CLI"
 
     ```bash title="Créer un commit"
-    git commit -m "Initial commit" # Créer un commit avec un message descriptif
+    git commit -m "Initial commit"
     ```
 
 === "Création d'un commit via l'interface graphique"
@@ -225,7 +225,7 @@ Pour ce faire, nous allons utiliser la commande `git remote add origin <url_du_d
 === "Connexion à un dépôt distant en CLI"
 
     ```bash title="Connexion à un dépôt distant"
-    git remote add origin <url_du_depot> # Connexion à un dépôt distant
+    git remote add origin <url_du_depot>
     ```
 
 ## Push et Pull
@@ -235,7 +235,7 @@ Une fois que notre dépôt local est connecté à un dépôt distant, nous pouvo
 === "Push d'un commit en CLI"
 
     ```bash title="Pousser un commit vers le dépôt distant"
-    git push origin main # Pousser un commit vers le dépôt distant
+    git push origin main
     ```
 === "Push d'un commit via l'interface graphique"
 
