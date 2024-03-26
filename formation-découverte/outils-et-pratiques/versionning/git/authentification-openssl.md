@@ -10,7 +10,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 ## Ajouter la clé SSH à l'agent SSH de GitHub
 
-- Rendez-vous à [la page deQ gestion des clés SSH](https://github.com/settings/keys) de GitHub. 
+- Rendez-vous à [la page de gestion des clés SSH](https://github.com/settings/keys) de GitHub. 
 
 - Cliquer sur "New SSH key" ou "Ajouter une clé SSH"
 
@@ -22,7 +22,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 - Cliquer sur "Add SSH key" ou "Ajouter une clé SSH" 
 
-```bash
+```
 
 ## Ressources supplémentaires
 
