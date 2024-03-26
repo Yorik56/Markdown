@@ -22,8 +22,6 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 - Cliquer sur "Add SSH key" ou "Ajouter une clé SSH" 
 
-```
-
 ## Ressources supplémentaires
 
 - Documentation officielle : [docs.github.com](https://docs.github.com/fr/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
