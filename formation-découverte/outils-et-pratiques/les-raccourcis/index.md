@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Les raccourcis clavier par plateforme Windows, Mac et Chrome OS
 ---
@@ -214,4 +213,3 @@ title: Les raccourcis clavier par plateforme Windows, Mac et Chrome OS
 === "Chrome OS"
 
 	- `Search + L` : Verrouiller l'écran
-```
