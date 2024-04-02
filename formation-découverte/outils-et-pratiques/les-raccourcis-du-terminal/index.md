@@ -208,21 +208,6 @@ Des raccourcis pour corriger ou modifier rapidement le texte dans le terminal.
 ## Contrôle de l'affichage
 Modifier l'affichage dans le terminal, comme le nettoyage de l'écran ou le défilement.
 
-=== "Mac"
-	- `Ctrl + L` (Nettoyer l'écran)
-	- `Ctrl + S` (Stopper le défilement de l'affichage)
-	- `Ctrl + Q` (Reprendre le défilement de l'affichage)
-
-=== "Windows"
-	- `Ctrl + L` (Nettoyer l'écran)
-	- `Ctrl + S` (Stopper le défilement de l'affichage)
-	- `Ctrl + Q` (Reprendre le défilement de l'affichage)
-
-=== "Chrome OS"
-	- `Ctrl + L` (Nettoyer l'écran)
-	- `Ctrl + S` (Stopper le défilement de l'affichage)
-	- `Ctrl + Q` (Reprendre le défilement de l'affichage)
-
 ## Fermeture et sortie
 Des raccourcis pour fermer le terminal ou sortir d'une session ou d'un programme.
 
