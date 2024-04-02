@@ -4,269 +4,236 @@ title: Les raccourcis clavier pour le terminal Unix/Ubuntu sur différentes plat
 
 # Les raccourcis de base du terminal
 
-## Annulation
+## Gestion des processus
+Interrompre le processus en cours ou le mettre en pause.
 
 === "Mac"
-
-	- `Ctrl + C` : Interrompre le processus en cours.
+	- `Ctrl + C`
+	- `Ctrl + Z`
 
 === "Windows"
-
-	- `Ctrl + C` : Interrompre le processus en cours dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
+	- `Ctrl + C` (Interrompre le processus)
+	- `Ctrl + Z` (Mettre le programme en pause)
 
 === "Chrome OS"
+	- `Ctrl + C`
+	- `Ctrl + Z`
 
-	- `Ctrl + C` : Interrompre le processus en cours dans le terminal Linux (Beta).
-
-## Fin de ligne
+## Navigation dans la ligne de commande
+Se déplacer au début ou à la fin de la ligne, et naviguer par mots.
 
 === "Mac"
-
-	- `Ctrl + E` : Aller à la fin de la ligne.
+	- `Ctrl + A` (Début de la ligne)
+	- `Ctrl + E` (Fin de la ligne)
+	- `Alt + B` (Mot précédent)
+	- `Alt + F` (Mot suivant)
 
 === "Windows"
-
-	- `Ctrl + E` : Aller à la fin de la ligne dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
+	- `Ctrl + A` (Début de la ligne)
+	- `Ctrl + E` (Fin de la ligne)
+	- `Alt + B` (Mot précédent)
+	- `Alt + F` (Mot suivant)
 
 === "Chrome OS"
+	- `Ctrl + A` (Début de la ligne)
+	- `Ctrl + E` (Fin de la ligne)
+	- `Alt + B` (Mot précédent)
+	- `Alt + F` (Mot suivant)
 
-	- `Ctrl + E` : Aller à la fin de la ligne dans le terminal Linux (Beta).
-
-## Début de ligne
+## Édition de texte
+Effacer des parties du texte, que ce soit un mot, une ligne, ou depuis le curseur jusqu'à un point spécifique.
 
 === "Mac"
-
-	- `Ctrl + A` : Aller au début de la ligne.
+	- `Ctrl + U` (Effacer jusqu'au début de la ligne)
+	- `Ctrl + K` (Effacer jusqu'à la fin de la ligne)
+	- `Ctrl + W` (Effacer le mot précédent)
+	- `Backspace` (Supprimer un caractère)
 
 === "Windows"
-
-	- `Ctrl + A` : Aller au début de la ligne dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
+	- `Ctrl + U` (Effacer jusqu'au début de la ligne)
+	- `Ctrl + K` (Effacer jusqu'à la fin de la ligne)
+	- `Ctrl + W` (Effacer le mot précédent)
+	- `Backspace` (Supprimer un caractère)
 
 === "Chrome OS"
+	- `Ctrl + U` (Effacer jusqu'au début de la ligne)
+	- `Ctrl + K` (Effacer jusqu'à la fin de la ligne)
+	- `Ctrl + W` (Effacer le mot précédent)
+	- `Backspace` (Supprimer un caractère)
 
-	- `Ctrl + A` : Aller au début de la ligne dans le terminal Linux (Beta).
-
-## Effacer la ligne
+## Historique des commandes
+Rechercher, répéter ou exécuter des commandes depuis l'historique.
 
 === "Mac"
-
-	- `Ctrl + U` : Efface du curseur jusqu'au début de la ligne.
-
-=== "Windows"
-
-	- `Ctrl + U` : Efface du curseur jusqu'au début de la ligne dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
-
-=== "Chrome OS"
-
-	- `Ctrl + U` : Efface du curseur jusqu'au début de la ligne dans le terminal Linux (Beta).
-
-## Effacer jusqu'à la fin de la ligne
-
-=== "Mac"
-
-	- `Ctrl + K` : Efface du curseur jusqu'à la fin de la ligne.
+	- `Ctrl + R` (Recherche dans l'historique)
+	- `Ctrl + G` (Sortir de la recherche)
+	- `Ctrl + O` (Exécuter une commande trouvée)
+	- `!!` (Répéter la dernière commande)
+	- `sudo !!` (Exécuter la dernière commande en tant que super utilisateur)
 
 === "Windows"
-
-	- `Ctrl + K` : Efface du curseur jusqu'à la fin de la ligne dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
-
-=== "Chrome OS"
-
-	- `Ctrl + K` : Efface du curseur jusqu'à la fin de la ligne dans le terminal Linux (Beta).
-
-## Rechercher dans l'historique
-
-=== "Mac"
-
-	- `Ctrl + R` : Recherche dans l'historique des commandes.
-
-=== "Windows"
-
-	- `Ctrl + R` : Recherche dans l'historique des commandes dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
+	- `Ctrl + R` (Recherche dans l'historique)
+	- `Ctrl + G` (Sortir de la recherche)
+	- `Ctrl + O` (Exécuter une commande trouvée)
+	- `!!` (Répéter la dernière commande)
+	- `sudo !!` (Exécuter la dernière commande en tant que super utilisateur)
 
 === "Chrome OS"
-
-	- `Ctrl + R` : Recherche dans l'historique des commandes dans le terminal Linux (Beta).
-
-## Répéter la dernière commande
-
-=== "Mac"
-
-	- `!!` : Répète la dernière commande.
-
-=== "Windows"
-
-	- `!!` : Répète la dernière commande dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
-
-=== "Chrome OS"
-
-	- `!!` : Répète la dernière commande dans le terminal Linux (Beta).
-
-## Exécuter une commande en tant que super utilisateur
-
-=== "Mac"
-
-	- `sudo !!` : Exécute la dernière commande en tant que super utilisateur.
-
-=== "Windows"
-
-	- `sudo !!` : Exécute la dernière commande en tant que super utilisateur dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
-
-=== "Chrome OS"
-
-	- `sudo !!` : Exécute la dernière commande en tant que super utilisateur dans le terminal Linux (Beta).
-
-
-## Basculer entre les programmes
-
-=== "Mac"
-
-	- `Ctrl + Z` : Mettre le programme en cours en pause (suspend).
-
-=== "Windows"
-
-	- `Ctrl + Z` : Mettre le programme en cours en pause (suspend) dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
-
-=== "Chrome OS"
-
-	- `Ctrl + Z` : Mettre le programme en cours en pause (suspend) dans le terminal Linux (Beta).
-
-## Répéter la commande précédente
-
-=== "Mac"
-
-	- `↑` (flèche vers le haut) : Accéder à la commande précédente.
-
-=== "Windows"
-
-	- `↑` (flèche vers le haut) : Accéder à la commande précédente dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
-
-=== "Chrome OS"
-
-	- `↑` (flèche vers le haut) : Accéder à la commande précédente dans le terminal Linux (Beta).
-
-## Supprimer un caractère
-
-=== "Mac"
-
-	- `Backspace` : Supprimer le caractère avant le curseur.
-
-=== "Windows"
-
-	- `Backspace` : Supprimer le caractère avant le curseur dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
-
-=== "Chrome OS"
-
-	- `Backspace` : Supprimer le caractère avant le curseur dans le terminal Linux (Beta).
+	- `Ctrl + R` (Recherche dans l'historique)
+	- `Ctrl + G` (Sortir de la recherche)
+	- `Ctrl + O` (Exécuter une commande trouvée)
+	- `!!` (Répéter la dernière commande)
+	- `sudo !!` (Exécuter la dernière commande en tant que super utilisateur)
 
 ## Autocomplétion
+Utiliser la touche Tab pour compléter automatiquement les noms de fichiers, de répertoires ou de commandes.
 
 === "Mac"
-
-	- `Tab` : Autocompléter les noms de fichiers, de répertoires ou de commandes.
+	- `Tab`
 
 === "Windows"
-
-	- `Tab` : Autocompléter les noms de fichiers, de répertoires ou de commandes dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
+	- `Tab`
 
 === "Chrome OS"
+	- `Tab`
 
-	- `Tab` : Autocompléter les noms de fichiers, de répertoires ou de commandes dans le terminal Linux (Beta).
-
-## Effacer un mot
+## Gestion de l'historique
+Naviguer dans l'historique des commandes ou répéter des commandes spécifiques.
 
 === "Mac"
-
-	- `Ctrl + W` : Efface le mot avant le curseur.
+	- `↑` (Flèche vers le haut pour la commande précédente)
+	- `↓` (Flèche vers le bas pour la commande suivante)
 
 === "Windows"
-
-	- `Ctrl + W` : Efface le mot avant le curseur dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
+	- `↑` (Commande précédente)
+	- `↓` (Commande suivante)
 
 === "Chrome OS"
+	- `↑` (Commande précédente)
+	- `↓` (Commande suivante)
 
-	- `Ctrl + W` : Efface le mot avant le curseur dans le terminal Linux (Beta).
-
-## Effacer tout après le curseur
+## Commandes supplémentaires
+Des raccourcis supplémentaires pour une utilisation avancée du terminal.
 
 === "Mac"
-
-	- `Ctrl + K` : Efface tout ce qui se trouve après le curseur.
+	- `Ctrl + L` (Nettoyer l'écran)
+	- `Ctrl + D` (Fermer le terminal)
 
 === "Windows"
-
-	- `Ctrl + K` : Efface tout ce qui se trouve après le curseur dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
+	- `Ctrl + L` (Nettoyer l'écran)
+	- `Ctrl + D` (Fermer le terminal)
 
 === "Chrome OS"
+	- `Ctrl + L` (Nettoyer l'écran)
+	- `Ctrl + D` (Fermer le terminal)
 
-	- `Ctrl + K` : Efface tout ce qui se trouve après le curseur dans le terminal Linux (Beta).
-
-## Sauter au mot suivant
+## Correction et manipulation de texte
+Des raccourcis pour corriger ou modifier rapidement le texte dans le terminal.
 
 === "Mac"
-
-	- `Alt + F` : Déplacer le curseur au début du mot suivant.
+	- `Ctrl + T` (Échanger les deux caractères avant le curseur)
+	- `Ctrl + _` (Annuler la dernière action)
 
 === "Windows"
-
-	- `Alt + F` : Déplacer le curseur au début du mot suivant dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
+	- `Ctrl + T` (Échanger les deux caractères avant le curseur)
+	- `Ctrl + _` (Annuler la dernière action)
 
 === "Chrome OS"
+	- `Ctrl + T` (Échanger les deux caractères avant le curseur)
+	- `Ctrl + _` (Annuler la dernière action)
 
-	- `Alt + F` : Déplacer le curseur au début du mot suivant dans le terminal Linux (Beta).
-
-## Revenir au mot précédent
+## Contrôle de l'affichage
+Modifier l'affichage dans le terminal, comme le nettoyage de l'écran ou le défilement.
 
 === "Mac"
-
-	- `Alt + B` : Déplacer le curseur au début du mot précédent.
+	- `Ctrl + L` (Nettoyer l'écran)
+	- `Ctrl + S` (Stopper le défilement de l'affichage)
+	- `Ctrl + Q` (Reprendre le défilement de l'affichage)
 
 === "Windows"
-
-	- `Alt + B` : Déplacer le curseur au début du mot précédent dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
+	- `Ctrl + L` (Nettoyer l'écran)
+	- `Ctrl + S` (Stopper le défilement de l'affichage)
+	- `Ctrl + Q` (Reprendre le défilement de l'affichage)
 
 === "Chrome OS"
+	- `Ctrl + L` (Nettoyer l'écran)
+	- `Ctrl + S` (Stopper le défilement de l'affichage)
+	- `Ctrl + Q` (Reprendre le défilement de l'affichage)
 
-	- `Alt + B` : Déplacer le curseur au début du mot précédent dans le terminal Linux (Beta).
-
-## Répéter la dernière commande commencée par une chaîne spécifique
+## Fermeture et sortie
+Des raccourcis pour fermer le terminal ou sortir d'une session ou d'un programme.
 
 === "Mac"
-
-	- `Ctrl + R` puis taper le début de la commande : Recherche dans l'historique une commande commençant par la chaîne spécifiée.
+	- `Ctrl + D` (Fermer le terminal ou sortir d'une session)
+	- `exit` (Taper `exit` pour fermer la session)
 
 === "Windows"
-
-	- `Ctrl + R` puis taper le début de la commande : Recherche dans l'historique une commande commençant par la chaîne spécifiée dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
+	- `Ctrl + D` (Fermer le terminal ou sortir d'une session dans le sous-système Linux)
+	- `exit` (Taper `exit` pour fermer la session dans le sous-système Linux)
 
 === "Chrome OS"
+	- `Ctrl + D` (Fermer le terminal ou sortir d'une session)
+	- `exit` (Taper `exit` pour fermer la session)
 
-	- `Ctrl + R` puis taper le début de la commande : Recherche dans l'historique une commande commençant par la chaîne spécifiée dans le terminal Linux (Beta).
-
-## Sortir du mode recherche dans l'historique
+## Accès au terminal
+Raccourcis pour ouvrir ou accéder au terminal.
 
 === "Mac"
-
-	- `Ctrl + G` : Sortir du mode de recherche dans l'historique sans exécuter la commande.
+	- `Cmd + Space`, puis taper `Terminal` (Spotlight recherche)
+	- `Cmd + Terminal` (Si Terminal est dans le dock)
 
 === "Windows"
-
-	- `Ctrl + G` : Sortir du mode de recherche dans l'historique sans exécuter la commande dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
+	- `Windows + R`, taper `cmd` pour Command Prompt ou `powershell` pour PowerShell, puis `Enter`
+	- `Windows + X`, puis `C` pour Command Prompt ou `A` pour PowerShell
 
 === "Chrome OS"
+	- `Ctrl + Alt + T` pour ouvrir le terminal Crosh
+	- Recherche dans le lanceur d'applications pour "Terminal" pour le terminal Linux (Beta)
 
-	- `Ctrl + G` : Sortir du mode de recherche dans l'historique sans exécuter la commande dans le terminal Linux (Beta).
-
-## Exécuter la commande trouvée dans l'historique
+## Correction et manipulation de texte
+Des raccourcis pour corriger ou modifier rapidement le texte dans le terminal.
 
 === "Mac"
-
-	- `Ctrl + O` : Exécuter la commande après l'avoir trouvée avec `Ctrl + R`.
+	- `Ctrl + T` (Échanger les deux caractères avant le curseur)
+	- `Ctrl + _` (Annuler la dernière action)
 
 === "Windows"
-
-	- `Ctrl + O` : Exécuter la commande après l'avoir trouvée avec `Ctrl + R` dans le sous-système Linux pour Windows ou dans un terminal comme Git Bash.
+	- `Ctrl + T` (Échanger les deux caractères avant le curseur)
+	- `Ctrl + _` (Annuler la dernière action)
 
 === "Chrome OS"
+	- `Ctrl + T` (Échanger les deux caractères avant le curseur)
+	- `Ctrl + _` (Annuler la dernière action)
 
-	- `Ctrl + O` : Exécuter la commande après l'avoir trouvée avec `Ctrl + R` dans le terminal Linux (Beta).
+## Contrôle de l'affichage
+Modifier l'affichage dans le terminal, comme le nettoyage de l'écran ou le défilement.
+
+=== "Mac"
+	- `Ctrl + L` (Nettoyer l'écran)
+	- `Ctrl + S` (Stopper le défilement de l'affichage)
+	- `Ctrl + Q` (Reprendre le défilement de l'affichage)
+
+=== "Windows"
+	- `Ctrl + L` (Nettoyer l'écran)
+	- `Ctrl + S` (Stopper le défilement de l'affichage)
+	- `Ctrl + Q` (Reprendre le défilement de l'affichage)
+
+=== "Chrome OS"
+	- `Ctrl + L` (Nettoyer l'écran)
+	- `Ctrl + S` (Stopper le défilement de l'affichage)
+	- `Ctrl + Q` (Reprendre le défilement de l'affichage)
+
+## Fermeture et sortie
+Des raccourcis pour fermer le terminal ou sortir d'une session ou d'un programme.
+
+=== "Mac"
+	- `Ctrl + D` (Fermer le terminal ou sortir d'une session)
+	- `exit` (Taper `exit` pour fermer la session)
+
+=== "Windows"
+	- `Ctrl + D` (Fermer le terminal ou sortir d'une session dans le sous-système Linux)
+	- `exit` (Taper `exit` pour fermer la session dans le sous-système Linux)
+
+=== "Chrome OS"
+	- `Ctrl + D` (Fermer le terminal ou sortir d'une session)
+	- `exit` (Taper `exit` pour fermer la session)
