@@ -135,8 +135,7 @@ Des raccourcis pour corriger ou modifier rapidement le texte dans le terminal.
 	- `Ctrl + _` (Annuler la dernière action)
 
 === "Windows"
-	- `Ctrl + T` (Échanger les deux caractères avant le curseur)
-	- `Ctrl + _` (Annuler la dernière action)
+
 
 === "Chrome OS"
 	- `Ctrl + T` (Échanger les deux caractères avant le curseur)
@@ -189,18 +188,3 @@ Raccourcis pour ouvrir ou accéder au terminal.
 === "Chrome OS"
 	- `Ctrl + Alt + T` pour ouvrir le terminal Crosh
 	- Recherche dans le lanceur d'applications pour "Terminal" pour le terminal Linux (Beta)
-
-## Correction et manipulation de texte
-Des raccourcis pour corriger ou modifier rapidement le texte dans le terminal.
-
-=== "Mac"
-	- `Ctrl + T` (Échanger les deux caractères avant le curseur)
-	- `Ctrl + _` (Annuler la dernière action)
-
-=== "Windows"
-	- `Ctrl + T` (Échanger les deux caractères avant le curseur)
-	- `Ctrl + _` (Annuler la dernière action)
-
-=== "Chrome OS"
-	- `Ctrl + T` (Échanger les deux caractères avant le curseur)
-	- `Ctrl + _` (Annuler la dernière action)
