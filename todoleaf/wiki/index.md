@@ -40,7 +40,7 @@ docker-compose exec todoleaf-app php artisan migrate
 docker-compose exec todoleaf-app php artisan db:seed
 ```
 
-## Utilisateur de test
+## Utilisateurs de test
 
 | Email        | Password  |
 |--------------|-----------|
