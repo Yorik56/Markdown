@@ -25,7 +25,7 @@ docker-compose up -d
 ```
 
 ```bash title="Définissez les permissions des fichiers inclus dans le conteneur _todoleaf-app_"
-docker-compose exec todoleaf-app chown -R www-data:www-data /var/www
+docker-compose exec -u root todoleaf-app chown -R www-data:www-data /var/www
 ```
 
 ```bash title="Installez les dépendances PHP nécessaires pour Laravel"
