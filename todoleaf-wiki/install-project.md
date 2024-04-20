@@ -62,4 +62,4 @@ http://127.0.0.1:8000/register
 
 add Place :
 
-http://127.0.0.1:8000/addPlant/place
+http://127.0.0.1:8000/addPlant
