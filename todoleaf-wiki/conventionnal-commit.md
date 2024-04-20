@@ -1,5 +1,6 @@
 ---
 title: Convention des Commits
+order: 2
 ---
 
 # Guide des Commits Conventionnels avec Gitmoji

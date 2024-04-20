@@ -1,5 +1,6 @@
 ---
 title: Convention des Branches
+order: 3
 ---
 
 # Guide des Règles de Branches pour le Développement
