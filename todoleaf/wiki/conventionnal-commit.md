@@ -28,8 +28,6 @@ Chaque commit doit suivre ce format général :
 
 ## Gitmojis Utilisés
 
-Voici une liste non exhaustive de gitmojis fréquemment utilisés et leur signification dans ce contexte :
-
 Voici un tableau récapitulant certains gitmojis fréquemment utilisés et leur signification (https://gitmoji.dev/)  :
 
 | Gitmoji            | Code                 | Signification                                           |
