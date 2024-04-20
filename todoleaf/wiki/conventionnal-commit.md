@@ -1,3 +1,7 @@
+---
+title: Convention des Commits
+---
+
 # Guide des Commits Conventionnels avec Gitmoji
 
 Ce document fournit les lignes directrices pour la création de messages de commit utilisant le format "conventional commit" enrichi par les gitmojis et les références aux issues de GitHub.
