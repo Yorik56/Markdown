@@ -6,7 +6,7 @@ order: 4
 # Guide Tailwind pour TodoLeaf
 
 ## Utilisation de Tailwind CSS
-Le projet Todoleaf utilise le framework css Tailwind css, Préférez donc les classes Tailwind pour le style.
+Le projet Todoleaf utilise le framework css Tailwind, Préférez donc les classes Tailwind pour le style.
 
 Consultez les classes sur [Cheatsheet Tailwind](https://tailwindcomponents.com/cheatsheet/).
 
