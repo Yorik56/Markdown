@@ -4,7 +4,7 @@
 
 Prise en main de FilamentPHP :
 
-https://laracasts.com/series/rapid-laravel-development-with-filament/episodes/2
+> https://laracasts.com/series/rapid-laravel-development-with-filament/episodes/2
 
 Documentation officielle de FilamentPHP :
 
