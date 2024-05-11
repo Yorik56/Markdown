@@ -1,5 +1,7 @@
 # Développer avec Filament PHP
 
+> https://filamentphp.com/docs/3.x/panels/installation
+
 ## Créer un CRUD pour un modèle existant
 
 Pour créer une ressource pour le modèle `User`, vous pouvez exécuter la commande suivante dans votre terminal :
