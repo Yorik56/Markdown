@@ -1,5 +1,8 @@
 # Développer avec Filament PHP
 
+## Resources
+
+> https://laracasts.com/series/rapid-laravel-development-with-filament/episodes/2
 > https://filamentphp.com/docs/3.x/panels/installation
 
 ## Créer un CRUD pour un modèle existant
